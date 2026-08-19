@@ -1,8 +1,8 @@
 # Fields of Mistria — Museum Tracker
 
-A single-page tracker for the [Fields of Mistria](https://fieldsofmistria.com/) museum: all **82 sets / 409 donations** across the Fish, Insects, Flora and Archaeology wings, with the season, weather, time, location and method for every item.
+### ▶ [Open the tracker](https://kmigdol.github.io/mistria-museum-tracker/)
 
-**[→ Open the tracker](https://kmigdol.github.io/mistria-museum-tracker/)**
+A single-page tracker for the [Fields of Mistria](https://fieldsofmistria.com/) museum: all **82 sets / 409 donations** across the Fish, Insects, Flora and Archaeology wings, with the season, weather, time, location and method for every item.
 
 ## What it does
 
