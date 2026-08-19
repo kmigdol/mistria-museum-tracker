@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fields of Mistria — Museum Tracker</title>
+<style>
+:root{
+  --bg:#f6efe2; --bg2:#fffaf0; --card:#fffdf7; --ink:#3f3427; --ink-soft:#7a6a55;
+  --line:#e3d5bd; --accent:#c2703c; --accent-soft:#f2ddc9;
+  --ok:#5d8a4e; --ok-soft:#e3f0d9; --today:#3f7ea6; --today-soft:#dcecf6; --warn:#a8622a;
+  --shadow:0 1px 2px rgba(90,70,40,.08), 0 4px 14px rgba(90,70,40,.06);
+  --r:12px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#211c17; --bg2:#2a241d; --card:#2e2820; --ink:#f0e6d6; --ink-soft:#b6a68d;
+    --line:#443a2d; --accent:#e0925c; --accent-soft:#4a3728;
+    --ok:#9ccb84; --ok-soft:#33412a; --today:#8fc4e6; --today-soft:#263945; --warn:#e0a566;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.45 ui-rounded,"Segoe UI",Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px 64px}
+header.top{padding:24px 0 10px}
+h1{margin:0;font-size:24px;letter-spacing:.2px}
+.sub{color:var(--ink-soft);font-size:13px;margin-top:4px}
+.bar{position:sticky;top:0;z-index:20;background:var(--bg2);border:1px solid var(--line);
+  border-radius:var(--r);box-shadow:var(--shadow);padding:12px;margin:14px 0 18px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.row + .row{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.lbl{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);
+  min-width:58px;font-weight:600}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;
+  padding:5px 12px;font-size:13px;cursor:pointer;transition:.12s;font-family:inherit}
+.pill:hover:not(:disabled){border-color:var(--accent)}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.pill:disabled{opacity:.32;cursor:not-allowed}
+input[type=search]{flex:1;min-width:160px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);font:inherit;font-size:13px}
+input[type=search]:focus{outline:2px solid var(--accent);outline-offset:1px}
+.sw{display:inline-flex;align-items:center;gap:7px;font-size:13px;cursor:pointer;
+  border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 12px}
+.sw input{accent-color:var(--accent);width:15px;height:15px;margin:0}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink-soft);border-radius:999px;
+  padding:5px 12px;font-size:12px;cursor:pointer;font-family:inherit}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:11px 13px;box-shadow:var(--shadow)}
+.stat .k{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft);font-weight:600}
+.stat .v{font-size:20px;font-weight:700;margin:3px 0 6px}
+.stat .v small{font-size:12px;font-weight:500;color:var(--ink-soft)}
+.track{height:6px;border-radius:99px;background:var(--line);overflow:hidden}
+.track > i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .3s}
+.stat.today .v{color:var(--today)} .stat.today .track > i{background:var(--today)}
+.stat.excl .v{color:var(--warn)} .stat.excl .track > i{background:var(--warn)}
+li.excl-badge{}
+.tag-excl{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--warn);border:1px solid var(--warn);border-radius:99px;padding:0 6px;margin-left:5px;vertical-align:1px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;align-items:start}
+.set{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.set.done{border-color:var(--ok)}
+.set > h2{margin:0;padding:11px 13px 9px;font-size:15px;display:flex;gap:8px;align-items:baseline;
+  border-bottom:1px solid var(--line);background:linear-gradient(var(--bg2),transparent)}
+.set > h2 .wing{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);
+  border:1px solid var(--line);border-radius:99px;padding:2px 7px;font-weight:600}
+.set > h2 .cnt{margin-left:auto;font-size:12px;color:var(--ink-soft);font-weight:600;white-space:nowrap}
+.set.done > h2 .cnt{color:var(--ok)}
+ul{list-style:none;margin:0;padding:5px}
+li{border-radius:9px}
+li > label{padding:7px 8px;display:flex;gap:9px;align-items:flex-start;cursor:pointer;
+  border-radius:9px;user-select:none;-webkit-user-select:none}
+li:active > label{transform:scale(.995)}
+li + li{margin-top:1px}
+li:hover{background:var(--bg2)}
+li:focus-within{outline:2px solid var(--accent);outline-offset:-2px}
+li.avail{background:var(--today-soft)}
+li.got{background:var(--ok-soft)}
+li.got .nm{text-decoration:line-through;opacity:.6}
+li input[type=checkbox]{margin:2px 0 0;width:17px;height:17px;accent-color:var(--ok);flex:none;cursor:pointer}
+.ico{width:34px;height:34px;flex:none;object-fit:contain;image-rendering:pixelated;
+  image-rendering:crisp-edges;margin-top:-1px}
+li.got .ico{opacity:.45;filter:grayscale(.55)}
+.nm{font-weight:600;font-size:14px}
+.nm .dot{color:var(--today);font-size:11px;vertical-align:2px}
+.meta{color:var(--ink-soft);font-size:12px;margin-top:2px;line-height:1.4}
+.meta b{font-weight:600;color:var(--ink);opacity:.8}
+.empty{padding:40px 16px;text-align:center;color:var(--ink-soft)}
+.foot{margin-top:26px;font-size:12px;color:var(--ink-soft);text-align:center;line-height:1.6}
+dialog{border:1px solid var(--line);border-radius:var(--r);background:var(--card);color:var(--ink);
+  max-width:520px;width:92%;padding:18px;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(40,30,20,.45)}
+dialog h3{margin:0 0 6px;font-size:16px}
+dialog p{margin:0 0 10px;font-size:13px;color:var(--ink-soft)}
+textarea{width:100%;height:130px;border:1px solid var(--line);border-radius:8px;background:var(--bg2);
+  color:var(--ink);font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;padding:8px;resize:vertical}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <h1>Museum Tracker — Fields of Mistria</h1>
+  <div class="sub">82 sets · 409 donations. Tick things off as you donate them; set the season and weather to see what today can give you.</div>
+</header>
+
+<div class="bar">
+  <div class="row">
+    <span class="lbl">Season</span>
+    <div class="pills" id="seasons"></div>
+    <span class="lbl" style="margin-left:8px">Weather</span>
+    <div class="pills" id="weathers"></div>
+  </div>
+  <div class="row">
+    <span class="lbl">Where</span>
+    <div class="pills" id="locs"></div>
+  </div>
+  <div class="row">
+    <span class="lbl">Show</span>
+    <div class="pills" id="wings"></div>
+    <label class="sw"><input type="checkbox" id="onlyAvail"> Only what I can get today</label>
+    <label class="sw" title="Everything that is season-restricted or weather-locked. Tick this with “Only what I can get today” to see exactly what today is your chance at."><input type="checkbox" id="exclusive"> Only time-limited</label>
+    <label class="sw"><input type="checkbox" id="hideDone"> Hide donated</label>
+  </div>
+  <div class="row">
+    <span class="lbl">Find</span>
+    <input type="search" id="q" placeholder="Search item, location or method — e.g. “ocean”, “fish trap”, “dig”">
+    <button class="btn" id="exportBtn">Export</button>
+    <button class="btn" id="importBtn">Import</button>
+    <button class="btn" id="resetBtn">Reset</button>
+  </div>
+</div>
+
+<div class="stats" id="stats"></div>
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty" hidden>Nothing matches those filters. Try widening the location, or turning off “Only what I can get today”.</div>
+
+<div class="foot">
+  Data from the <a href="https://fieldsofmistria.wiki.gg/wiki/Museum" target="_blank" rel="noopener">Fields of Mistria Wiki</a>.
+  <span id="saveNote"></span>
+</div>
+</div>
+
+<dialog id="dlg">
+  <h3 id="dlgTitle">Export progress</h3>
+  <p id="dlgMsg">Copy this text somewhere safe. Paste it back in with Import to restore your ticks.</p>
+  <textarea id="dlgTxt" spellcheck="false"></textarea>
+  <div class="row" style="justify-content:flex-end;margin-top:10px">
+    <button class="btn" id="dlgClose">Close</button>
+    <button class="btn" id="dlgSave" hidden>Load progress</button>
+  </div>
+</dialog>
+
+<script>
+const DATA = __DATA__;
+const ICONS = __ICONS__;
+const SEASONS = ["Spring","Summer","Fall","Winter"];
+const WEATHER = ["Sunny","Rain","Storm","Windy","Snow"];
+const WEATHER_BY_SEASON = {
+  Spring:["Sunny","Rain","Storm","Windy"],
+  Summer:["Sunny","Rain","Storm"],
+  Fall:["Sunny","Rain","Storm","Windy"],
+  Winter:["Sunny","Snow"]
+};
+const WINGS = ["All","Fish","Insects","Flora","Archaeology"];
+const LOCS = ["Anywhere","Farm","Sweetwater Farm","Mistria","The Narrows","Eastern Road",
+  "Western Ruins","The Beach","Deep Woods","Ocean","River","Pond",
+  "Upper Mines","Tide Caverns","Deep Earth","Lava Caves","Ancient Ruins","Apiary/Terrarium"];
+
+// flatten
+const ITEMS = [];
+DATA.forEach(w => w.sets.forEach(s => s.items.forEach(it => {
+  ITEMS.push(Object.assign({}, it, {wing:w.wing, set:s.set,
+    id: w.wing+"|"+s.set+"|"+it.name,
+    hay: (it.name+" "+(it.location||"")+" "+(it.method||"")+" "+(it.notes||"")+" "+(it.size||"")+" "+s.set).toLowerCase()}));
+})));
+
+// ---- persistence (falls back to memory if storage is unavailable) ----
+const KEY = "mistria-museum-v1";
+let store = {};
+let persists = false;
+try { const raw = localStorage.getItem(KEY); if(raw) store = JSON.parse(raw); persists = true; }
+catch(e){ persists = false; }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(store)); }catch(e){} }
+document.getElementById("saveNote").textContent = persists
+  ? " · Your ticks are saved in this browser."
+  : " · Ticks last for this visit only here — use Export to keep them.";
+
+const state = { season:"Spring", weather:"Sunny", wing:"All", loc:"Anywhere", onlyAvail:false, exclusive:false, hideDone:false, q:"" };
+
+// season-restricted or weather-locked — there is a window on it, whatever today happens to be
+function timeLimited(it){
+  return it.seasons.length < 4 || !it.weather.includes("Any");
+}
+function limitLabel(it){
+  const s = it.seasons.length < 4 ? it.seasons.join("/") : "";
+  const w = it.weather.includes("Any") ? "" : it.weather.join("/").toLowerCase();
+  return (s && w) ? s+" · "+w+" only" : (s ? s+" only" : w+" only");
+}
+function available(it){
+  return it.seasons.includes(state.season) &&
+    (it.weather.includes("Any") || it.weather.includes(state.weather));
+}
+function visible(it){
+  if(state.wing !== "All" && it.wing !== state.wing) return false;
+  if(state.loc !== "Anywhere" && !(it.tags || []).includes(state.loc)) return false;
+  if(state.hideDone && store[it.id]) return false;
+  if(state.onlyAvail && !available(it)) return false;
+  if(state.exclusive && !timeLimited(it)) return false;
+  if(state.q && !it.hay.includes(state.q)) return false;
+  return true;
+}
+
+function pills(host, values, get, set, disabledFn){
+  host.innerHTML = "";
+  values.forEach(v => {
+    const b = document.createElement("button");
+    b.className = "pill"; b.textContent = v; b.type = "button";
+    b.setAttribute("aria-pressed", String(get() === v));
+    if(disabledFn && disabledFn(v)) b.disabled = true;
+    b.onclick = () => { set(v); render(); };
+    host.appendChild(b);
+  });
+}
+
+function render(){
+  pills(document.getElementById("seasons"), SEASONS, ()=>state.season, v=>{
+    state.season = v;
+    if(!WEATHER_BY_SEASON[v].includes(state.weather)) state.weather = "Sunny";
+  });
+  pills(document.getElementById("weathers"), WEATHER, ()=>state.weather, v=>state.weather=v,
+    v => !WEATHER_BY_SEASON[state.season].includes(v));
+  pills(document.getElementById("wings"), WINGS, ()=>state.wing, v=>state.wing=v);
+  pills(document.getElementById("locs"), LOCS, ()=>state.loc, v=>state.loc=v);
+
+  // stats
+  const wingStat = w => {
+    const list = ITEMS.filter(i => w==="All" || i.wing===w);
+    return {done:list.filter(i=>store[i.id]).length, total:list.length};
+  };
+  const all = wingStat("All");
+  const todo = ITEMS.filter(i => !store[i.id]);
+  const inLoc = i => state.loc === "Anywhere" || (i.tags || []).includes(state.loc);
+  const scoped = ITEMS.filter(inLoc);
+  // population for the "today" tiles = everything this season+weather can give you, donated or not
+  const gettableNow = scoped.filter(available);           // everything today can give you
+  const todayAll = gettableNow.filter(timeLimited);       // ...of which these have a window on them
+  const todayList = todayAll.filter(i => !store[i.id]);
+  const stats = [
+    {k:"Total donated", d:all.done, t:all.total, cls:""},
+    {k:state.season+" · "+state.weather+(state.loc!=="Anywhere"?" · "+state.loc:""),
+     d:todayAll.length - todayList.length, t:todayAll.length, cls:"today",
+     title:"Time-limited items you can only get in these conditions. "+
+       gettableNow.filter(i=>!store[i.id]).length+" of your remaining items are gettable today in total.",
+     vLabel: todayList.length+" <small>of "+todayAll.length+" time-limited</small>"}
+  ].concat(["Fish","Insects","Flora","Archaeology"].map(w => {
+    const s = wingStat(w); return {k:w, d:s.done, t:s.total, cls:""};
+  }));
+  document.getElementById("stats").innerHTML = stats.map(s => `
+    <div class="stat ${s.cls}"${s.title ? ' title="'+s.title.replace(/"/g,"&quot;")+'"' : ''}>
+      <div class="k">${s.k}</div>
+      <div class="v">${s.vLabel || (s.d+' <small>/ '+s.t+'</small>')}</div>
+      <div class="track"><i style="width:${s.t? (s.d/s.t*100):0}%"></i></div>
+    </div>`).join("");
+
+  // sets
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  let shown = 0;
+  DATA.forEach(w => w.sets.forEach(s => {
+    const items = s.items.map(it => ITEMS.find(x => x.id === w.wing+"|"+s.set+"|"+it.name));
+    const vis = items.filter(visible);
+    if(!vis.length) return;
+    shown++;
+    const done = items.filter(i => store[i.id]).length;
+    const el = document.createElement("section");
+    el.className = "set" + (done === items.length ? " done" : "");
+    el.innerHTML = `<h2><span class="wing">${w.wing}</span> ${s.set}
+        <span class="cnt">${done}/${items.length}${done===items.length?" ✓":""}</span></h2>`;
+    const ul = document.createElement("ul");
+    vis.forEach(it => {
+      const li = document.createElement("li");
+      const got = !!store[it.id], av = available(it);
+      li.className = (got ? "got" : (av ? "avail" : ""));
+      const cb = document.createElement("input");
+      cb.type = "checkbox"; cb.checked = got;
+      cb.setAttribute("aria-label", "Donated " + it.name);
+      cb.onchange = () => { if(cb.checked) store[it.id]=1; else delete store[it.id]; save(); render(); };
+      const div = document.createElement("div");
+      const bits = [];
+      if(it.location) bits.push(it.location);
+      if(it.method) bits.push(it.method);
+      if(it.time && it.time !== "Any") bits.push(it.time);
+      if(it.size) bits.push(it.size + " fish");
+      const seas = it.seasons.length === 4 ? "All seasons" : it.seasons.join(", ");
+      const weat = it.weather.includes("Any") ? "any weather" : it.weather.join("/").toLowerCase();
+      let exTag = "";
+      if(!got && timeLimited(it)){
+        const why = limitLabel(it);
+        exTag = `<span class="tag-excl" title="Time-limited — ${why}">${why}</span>`;
+      }
+      div.innerHTML = `<div class="nm">${it.name}${(av && !got) ? ' <span class="dot" title="Available today">●</span>' : ''}${exTag}</div>
+        <div class="meta">${bits.join(" · ")}<br><b>${seas}</b> · ${weat}${it.notes ? " · " + it.notes : ""}</div>`;
+      const lab = document.createElement("label");
+      lab.appendChild(cb);
+      if(ICONS[it.name]){
+        const img = document.createElement("img");
+        img.className = "ico"; img.src = ICONS[it.name]; img.alt = ""; img.loading = "lazy";
+        lab.appendChild(img);
+      }
+      lab.appendChild(div);
+      lab.title = (got ? "Click to un-donate " : "Click anywhere to mark ") + it.name + " as donated";
+      li.appendChild(lab); ul.appendChild(li);
+    });
+    el.appendChild(ul); grid.appendChild(el);
+  }));
+  document.getElementById("empty").hidden = shown > 0;
+}
+
+document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+document.getElementById("onlyAvail").onchange = e => { state.onlyAvail = e.target.checked; render(); };
+document.getElementById("exclusive").onchange = e => { state.exclusive = e.target.checked; render(); };
+document.getElementById("hideDone").onchange = e => { state.hideDone = e.target.checked; render(); };
+
+const dlg = document.getElementById("dlg"), dlgTxt = document.getElementById("dlgTxt"),
+      dlgSave = document.getElementById("dlgSave");
+document.getElementById("exportBtn").onclick = () => {
+  document.getElementById("dlgTitle").textContent = "Export progress";
+  document.getElementById("dlgMsg").textContent = "Copy this text somewhere safe. Paste it back in with Import to restore your ticks.";
+  dlgTxt.value = JSON.stringify(Object.keys(store)); dlgSave.hidden = true; dlg.showModal(); dlgTxt.select();
+};
+document.getElementById("importBtn").onclick = () => {
+  document.getElementById("dlgTitle").textContent = "Import progress";
+  document.getElementById("dlgMsg").textContent = "Paste a previously exported code here. This replaces what's currently ticked.";
+  dlgTxt.value = ""; dlgSave.hidden = false; dlg.showModal(); dlgTxt.focus();
+};
+dlgSave.onclick = () => {
+  try {
+    const keys = JSON.parse(dlgTxt.value);
+    if(!Array.isArray(keys)) throw 0;
+    store = {}; keys.forEach(k => store[k] = 1); save(); render(); dlg.close();
+  } catch(e){ document.getElementById("dlgMsg").textContent = "That doesn't look like an export code — paste the whole thing, brackets included."; }
+};
+document.getElementById("dlgClose").onclick = () => dlg.close();
+document.getElementById("resetBtn").onclick = () => {
+  document.getElementById("dlgTitle").textContent = "Reset everything?";
+  document.getElementById("dlgMsg").textContent = "This clears every tick. Export first if you want a backup.";
+  dlgTxt.value = JSON.stringify(Object.keys(store));
+  dlgSave.hidden = false; dlgSave.textContent = "Yes, clear all";
+  dlgSave.onclick = () => { store = {}; save(); render(); dlg.close();
+    dlgSave.textContent = "Load progress"; };
+  dlg.showModal();
+};
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,1544 @@
+{
+  "wing": "Insects",
+  "sets": [
+    {
+      "set": "Multi-Season",
+      "items": [
+        {
+          "name": "Ant",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy",
+            "Rain"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Bumblebee",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Fuzzy Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Hummingbird Hawk Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Praying Mantis",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Spring",
+      "items": [
+        {
+          "name": "Butterfly",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Caterpillar",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy",
+            "Rain"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns in trees; rarity: Common; also sold at Balor's Wagon"
+        },
+        {
+          "name": "Ladybug",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy",
+            "Rain"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common; also sold at Balor's Wagon"
+        },
+        {
+          "name": "Luna Moth",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Roly Poly",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Uncommon"
+        }
+      ]
+    },
+    {
+      "set": "Summer",
+      "items": [
+        {
+          "name": "Cicada",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns in trees; rarity: Common"
+        },
+        {
+          "name": "Cricket",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Dragonfly",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Sunny",
+            "Rain"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Firefly",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Sunny"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Sand Bug",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Beach",
+          "method": "Bug net",
+          "notes": "listed in the Summer set but spawns year-round; rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Fall",
+      "items": [
+        {
+          "name": "Cicada Nymph",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Inchworm",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Monarch Butterfly",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Tiger Swallowtail Butterfly",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Walking Leaf",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns in trees; rarity: Uncommon"
+        }
+      ]
+    },
+    {
+      "set": "Winter",
+      "items": [
+        {
+          "name": "Brightbulb Moth",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Sunny"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Crystal Caterpillar",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Snow"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns in trees; rarity: Rare"
+        },
+        {
+          "name": "Frost Flutter Butterfly",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Sunny"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Walking Stick",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Winterpillar",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns in trees; rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Bee",
+      "items": [
+        {
+          "name": "Big Bee",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Flower Bee",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Fur Bee",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Sunny"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Moonlight Bee",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Sweet Bee",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        }
+      ]
+    },
+    {
+      "set": "Bug Pheromone",
+      "items": [
+        {
+          "name": "Ant Queen",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net after using Common Bug Pheromones",
+          "notes": "requires Common Bug Pheromones; rarity: Common"
+        },
+        {
+          "name": "Biggest Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net after using Legendary Bug Pheromones",
+          "notes": "requires Legendary Bug Pheromones; rarity: Very Rare"
+        },
+        {
+          "name": "Queen's Birdwing",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net after using Rare Bug Pheromones",
+          "notes": "requires Rare Bug Pheromones; rarity: Rare"
+        },
+        {
+          "name": "Saint Mantis",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net after using Uncommon Bug Pheromones",
+          "notes": "requires Uncommon Bug Pheromones; rarity: Uncommon"
+        },
+        {
+          "name": "Sunset Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net after using Common Bug Pheromones",
+          "notes": "requires Common Bug Pheromones; rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Rare",
+      "items": [
+        {
+          "name": "Jewel Beetle",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Uncommon"
+        },
+        {
+          "name": "Lightning Dragonfly",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Storm"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Sweetwater Farm / The Narrows / The Eastern Road / Mistria",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Magma Beetle",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Mistmoth",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Orchid Mantis",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy",
+            "Rain"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        }
+      ]
+    },
+    {
+      "set": "Legendary",
+      "items": [
+        {
+          "name": "Fairy Bee",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Morning (6am-11am) / Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Very rare"
+        },
+        {
+          "name": "Flower Crown Beetle",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Very rare"
+        },
+        {
+          "name": "Snowball Beetle",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Snow"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "blizzard weather only; rarity: Very rare"
+        },
+        {
+          "name": "Speedy Snail",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy",
+            "Rain"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Very rare"
+        },
+        {
+          "name": "Strobe Firefly",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Sunny"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Very Rare"
+        }
+      ]
+    },
+    {
+      "set": "Upper Mines",
+      "items": [
+        {
+          "name": "Copper Nugget Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Lantern Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Bug net",
+          "notes": "spawns near light sources; rarity: Common"
+        },
+        {
+          "name": "Mine Cricket",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Tunnel Millipede",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Common"
+        },
+        {
+          "name": "Worm",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Tide Caverns",
+      "items": [
+        {
+          "name": "Coral Mantis",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Tide Caverns (floors 21-39)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Hermit Snail",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Tide Caverns (floors 21-39)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Puddle Spider",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Tide Caverns (floors 21-39)",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Sea Scarab",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Tide Caverns (floors 21-39)",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Uncommon"
+        },
+        {
+          "name": "Waterfly",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Tide Caverns (floors 21-39)",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Deep Earth",
+      "items": [
+        {
+          "name": "Crystal Wing Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Crystalline Cricket",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Deep Earthworm",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Uncommon"
+        },
+        {
+          "name": "Gem Shard Caterpillar",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Rock Roach",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Bug net",
+          "notes": "breaking rocks; rarity: Uncommon"
+        }
+      ]
+    },
+    {
+      "set": "Lava Caves",
+      "items": [
+        {
+          "name": "Fire Wasp",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Cooktop Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Lava Snail",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Smoke Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Diamond Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        }
+      ]
+    },
+    {
+      "set": "Ruins",
+      "items": [
+        {
+          "name": "Ancient Firefly",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Giant Worm",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Hidden Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        },
+        {
+          "name": "Parchment Moth",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Void Snail",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Grass",
+      "items": [
+        {
+          "name": "Grasshopper",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns when cutting grass; rarity: Common"
+        },
+        {
+          "name": "Icehopper",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns when cutting grass; rarity: Common"
+        },
+        {
+          "name": "Leafhopper",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns when cutting grass; rarity: Common"
+        },
+        {
+          "name": "Petalhopper",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Day (6am-8pm)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "additional spawns when breaking grass; rarity: Common"
+        },
+        {
+          "name": "Strawhopper",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "Overworld",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Beach",
+      "items": [
+        {
+          "name": "Beach Hopper",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Beach",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Hermit Crab",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Beach",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Relic Crab",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Beach",
+          "method": "Bug net",
+          "notes": "rarity: Uncommon"
+        },
+        {
+          "name": "Surf Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Beach",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Waterbug",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Beach",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        }
+      ]
+    },
+    {
+      "set": "Deep Woods",
+      "items": [
+        {
+          "name": "Windleaf Butterfly",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Woods",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Mote Firefly",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Sunny",
+            "Windy"
+          ],
+          "time": "Night (8pm-2am)",
+          "location": "The Deep Woods",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Loam Caterpillar",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Woods",
+          "method": "Bug net",
+          "notes": "additional spawns in trees; rarity: Uncommon"
+        },
+        {
+          "name": "Dragon Horn Beetle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Woods",
+          "method": "Bug net",
+          "notes": "rarity: Common"
+        },
+        {
+          "name": "Singing Katydid",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "All Day (6am-2am)",
+          "location": "The Deep Woods",
+          "method": "Bug net",
+          "notes": "rarity: Rare"
+        }
+      ]
+    },
+    {
+      "set": "Honey",
+      "items": [
+        {
+          "name": "Honey",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Apiary",
+          "method": "Apiary (produced by bees)",
+          "notes": "also sold at the General Store"
+        },
+        {
+          "name": "Premium Honey",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Apiary",
+          "method": "Apiary (produced by bees)",
+          "notes": ""
+        },
+        {
+          "name": "Deluxe Honey",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Apiary",
+          "method": "Apiary (produced by bees)",
+          "notes": ""
+        },
+        {
+          "name": "Legendary Honey",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Apiary",
+          "method": "Apiary (produced by bees)",
+          "notes": ""
+        },
+        {
+          "name": "Honeycomb",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Apiary",
+          "method": "Apiary (produced by bees)",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "set": "Terrarium",
+      "items": [
+        {
+          "name": "Uncommon Bug Pheromones",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Terrarium",
+          "method": "Terrarium (produced from donated bugs)",
+          "notes": ""
+        },
+        {
+          "name": "Rare Bug Pheromones",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Terrarium",
+          "method": "Terrarium (produced from donated bugs)",
+          "notes": ""
+        },
+        {
+          "name": "Legendary Bug Pheromones",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Terrarium",
+          "method": "Terrarium (produced from donated bugs)",
+          "notes": ""
+        },
+        {
+          "name": "Uncommon Fish Bait",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Terrarium",
+          "method": "Terrarium (produced from donated bugs)",
+          "notes": ""
+        },
+        {
+          "name": "Rare Fish Bait",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Terrarium",
+          "method": "Terrarium (produced from donated bugs)",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

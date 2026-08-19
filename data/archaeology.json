@@ -1,0 +1,1875 @@
+{
+  "wing": "Archaeology",
+  "sets": [
+    {
+      "set": "Dig Site Material Set",
+      "items": [
+        {
+          "name": "Clay",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines / any divable water",
+          "method": "Mining or Diving",
+          "notes": "Also buyable from Balor's Wagon or the Carpenter for 50t, or made at a Stone Refinery"
+        },
+        {
+          "name": "Peat",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Overworld and The Mines",
+          "method": "Mining",
+          "notes": "Also buyable from the Carpenter for 50t (Steady Supplies skill), or made at a Stone Refinery"
+        },
+        {
+          "name": "Shard Mass",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Also buyable from Balor's Wagon for 80t, or made at a Stone Refinery"
+        },
+        {
+          "name": "Shards",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Also buyable from Balor's Wagon for 50t, or made at a Stone Refinery"
+        },
+        {
+          "name": "Sod",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area) and The Mines",
+          "method": "Digging (Archaeology) or Mining",
+          "notes": "Also buyable from the Carpenter for 50t (Steady Supplies skill), or made at a Stone Refinery"
+        }
+      ]
+    },
+    {
+      "set": "Prehistoric Artifact Set",
+      "items": [
+        {
+          "name": "Amber Trapped Insect",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Beach"
+        },
+        {
+          "name": "Fossilized Egg",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Beach"
+        },
+        {
+          "name": "Meteorite",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Beach"
+        },
+        {
+          "name": "Tiny Dinosaur Skeleton",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Beach"
+        },
+        {
+          "name": "Trilobite Fossil",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Beach"
+        }
+      ]
+    },
+    {
+      "set": "Ancient Artifact Set",
+      "items": [
+        {
+          "name": "Ancient Crystal Goblet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Western Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Western Ruins"
+        },
+        {
+          "name": "Ancient Gold Coin",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Western Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Western Ruins"
+        },
+        {
+          "name": "Ancient Horn Circlet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Western Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Western Ruins"
+        },
+        {
+          "name": "Ancient Royal Scepter",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Western Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Western Ruins"
+        },
+        {
+          "name": "Ancient Stone Lantern",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Western Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Western Ruins"
+        }
+      ]
+    },
+    {
+      "set": "Alda Artifact Set",
+      "items": [
+        {
+          "name": "Alda Bronze Sword",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm (Sweetwater Farm)"
+        },
+        {
+          "name": "Alda Clay Pot",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm (Sweetwater Farm)"
+        },
+        {
+          "name": "Alda Feather Pendant",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm (Sweetwater Farm)"
+        },
+        {
+          "name": "Alda Gem Bracelet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm (Sweetwater Farm)"
+        },
+        {
+          "name": "Alda Mural Tablet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm (Sweetwater Farm)"
+        }
+      ]
+    },
+    {
+      "set": "Caldosian Artifact Set",
+      "items": [
+        {
+          "name": "Caldosian Breastplate",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Eastern Road"
+        },
+        {
+          "name": "Caldosian Drinking Horn",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Eastern Road"
+        },
+        {
+          "name": "Caldosian Emperor Bust",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Eastern Road"
+        },
+        {
+          "name": "Caldosian Sword",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Eastern Road"
+        },
+        {
+          "name": "Statuette of Caldarus",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on The Eastern Road"
+        }
+      ]
+    },
+    {
+      "set": "Aldarian Artifact Set",
+      "items": [
+        {
+          "name": "Aldarian Gauntlet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Narrows"
+        },
+        {
+          "name": "Aldarian Sword",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Narrows"
+        },
+        {
+          "name": "Aldarian War Banner",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Narrows"
+        },
+        {
+          "name": "Family Crest Pendant",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Narrows"
+        },
+        {
+          "name": "Lost Crown of Aldaria",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Narrows"
+        }
+      ]
+    },
+    {
+      "set": "Oopart Artifact Set",
+      "items": [
+        {
+          "name": "Black Tablet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Rare drop from any dig spot; requires the Well Placed archaeology skill"
+        },
+        {
+          "name": "Completely Wrong Map",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Rare drop from any dig spot; requires the Well Placed archaeology skill"
+        },
+        {
+          "name": "Muttering Cube",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Rare drop from any dig spot; requires the Well Placed archaeology skill"
+        },
+        {
+          "name": "Unknown Dragon Statuette",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Rare drop from any dig spot; requires the Well Placed archaeology skill"
+        },
+        {
+          "name": "Weightless Stone",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Dig spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Rare drop from any dig spot; requires the Well Placed archaeology skill"
+        }
+      ]
+    },
+    {
+      "set": "Aquatic Artifact Set",
+      "items": [
+        {
+          "name": "Coin Lump",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any fishable water",
+          "method": "Fishing",
+          "notes": "Reeled in while fishing; requires the Aquatic Antiquities fishing skill"
+        },
+        {
+          "name": "Giant Fish Scale",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any fishable water",
+          "method": "Fishing",
+          "notes": "Reeled in while fishing; requires the Aquatic Antiquities fishing skill"
+        },
+        {
+          "name": "Rubber Fish",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any fishable water",
+          "method": "Fishing",
+          "notes": "Reeled in while fishing; requires the Aquatic Antiquities fishing skill"
+        },
+        {
+          "name": "Rusted Treasure Chest",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any fishable water",
+          "method": "Fishing",
+          "notes": "Reeled in while fishing; requires the Aquatic Antiquities fishing skill"
+        },
+        {
+          "name": "Water Sphere",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any fishable water",
+          "method": "Fishing",
+          "notes": "Reeled in while fishing; requires the Aquatic Antiquities fishing skill"
+        }
+      ]
+    },
+    {
+      "set": "Sunken Artifact Set",
+      "items": [
+        {
+          "name": "Criminal Confession",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any divable water",
+          "method": "Diving",
+          "notes": "Found while dive-fishing; requires the Sunken Secrets fishing skill"
+        },
+        {
+          "name": "Mermaid's Comb",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any divable water",
+          "method": "Diving",
+          "notes": "Found while dive-fishing; requires the Sunken Secrets fishing skill"
+        },
+        {
+          "name": "Rainbow Seaweed",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any divable water",
+          "method": "Diving",
+          "notes": "Found while dive-fishing; requires the Sunken Secrets fishing skill"
+        },
+        {
+          "name": "Rock with a Hole",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any divable water",
+          "method": "Diving",
+          "notes": "Found while dive-fishing; requires the Sunken Secrets fishing skill"
+        },
+        {
+          "name": "Rusted Shield",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any divable water",
+          "method": "Diving",
+          "notes": "Found while dive-fishing; requires the Sunken Secrets fishing skill"
+        }
+      ]
+    },
+    {
+      "set": "Deep Woods Artifact Set",
+      "items": [
+        {
+          "name": "Crystal Apple",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Deep Woods"
+        },
+        {
+          "name": "Fossilized Mandrake Root",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Deep Woods"
+        },
+        {
+          "name": "Gathering Basket",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Deep Woods"
+        },
+        {
+          "name": "Metal Leaf",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Deep Woods"
+        },
+        {
+          "name": "Petrified Wood",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots in The Deep Woods"
+        }
+      ]
+    },
+    {
+      "set": "Fish Trap Artifact Set",
+      "items": [
+        {
+          "name": "Clay Amphora",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Fish Traps",
+          "notes": "Collected from Fish Traps placed in the ocean at The Beach"
+        },
+        {
+          "name": "Message in a Bottle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Fish Traps",
+          "notes": "Collected from Fish Traps placed in the ocean at The Beach"
+        },
+        {
+          "name": "Porcelain Figure",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Fish Traps",
+          "notes": "Collected from Fish Traps placed in the ocean at The Beach"
+        },
+        {
+          "name": "Sea Glass",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Fish Traps",
+          "notes": "Collected from Fish Traps placed in the ocean at The Beach"
+        },
+        {
+          "name": "Worn Pendant",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach",
+          "method": "Fish Traps",
+          "notes": "Collected from Fish Traps placed in the ocean at The Beach"
+        }
+      ]
+    },
+    {
+      "set": "Buried Artifact Set",
+      "items": [
+        {
+          "name": "Diamond-backed Mirror",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on any Mines floor"
+        },
+        {
+          "name": "Flint Arrowhead",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on any Mines floor"
+        },
+        {
+          "name": "Obsidian Blade",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on any Mines floor"
+        },
+        {
+          "name": "Shortcut Scroll",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on any Mines floor"
+        },
+        {
+          "name": "Stone Horse",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on any Mines floor"
+        }
+      ]
+    },
+    {
+      "set": "Upper Mines Artifact Set",
+      "items": [
+        {
+          "name": "Miner's Helmet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 1-19"
+        },
+        {
+          "name": "Miner's Pickaxe",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 1-19"
+        },
+        {
+          "name": "Miner's Rucksack",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 1-19"
+        },
+        {
+          "name": "Miner's Slab",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 1-19"
+        },
+        {
+          "name": "Tin Lunchbox",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 1-19"
+        }
+      ]
+    },
+    {
+      "set": "Tide Cavern Artifact Set",
+      "items": [
+        {
+          "name": "Crab Statue",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 21-39"
+        },
+        {
+          "name": "Dense Water",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 21-39"
+        },
+        {
+          "name": "Starlight Coral",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 21-39"
+        },
+        {
+          "name": "Stone Shell",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 21-39"
+        },
+        {
+          "name": "Tidestone",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 21-39"
+        }
+      ]
+    },
+    {
+      "set": "Deep Earth Artifact Set",
+      "items": [
+        {
+          "name": "Earth-infused Stone",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 41-59"
+        },
+        {
+          "name": "Faceted Rock Gem",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 41-59"
+        },
+        {
+          "name": "Really Round Rock",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 41-59"
+        },
+        {
+          "name": "Rock Statue",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 41-59"
+        },
+        {
+          "name": "Seriously Square Stone",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 41-59"
+        }
+      ]
+    },
+    {
+      "set": "Lava Caves Artifact Set",
+      "items": [
+        {
+          "name": "Fire Crystal",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 61-79"
+        },
+        {
+          "name": "Rainbow Geode",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 61-79"
+        },
+        {
+          "name": "Red Obsidian",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 61-79"
+        },
+        {
+          "name": "Tiny Volcano",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 61-79"
+        },
+        {
+          "name": "Warm Rock",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 61-79"
+        }
+      ]
+    },
+    {
+      "set": "Dragon Artifact Set",
+      "items": [
+        {
+          "name": "Dragon Claw",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 81-99"
+        },
+        {
+          "name": "Dragon Pact Tablet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 81-99"
+        },
+        {
+          "name": "Dragon Scale",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 81-99"
+        },
+        {
+          "name": "Dragon-Forged Bracelet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 81-99"
+        },
+        {
+          "name": "Hardened Essence",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig spots on Mines floors 81-99"
+        }
+      ]
+    },
+    {
+      "set": "Ritual Artifact Set",
+      "items": [
+        {
+          "name": "Ritual Beads",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Ritual Chambers in The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig in Ritual Chambers found in The Mines; requires the Lost to History archaeology skill"
+        },
+        {
+          "name": "Ritual Chalice",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Ritual Chambers in The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig in Ritual Chambers found in The Mines; requires the Lost to History archaeology skill"
+        },
+        {
+          "name": "Ritual Incense Burner",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Ritual Chambers in The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig in Ritual Chambers found in The Mines; requires the Lost to History archaeology skill"
+        },
+        {
+          "name": "Ritual Scepter",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Ritual Chambers in The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig in Ritual Chambers found in The Mines; requires the Lost to History archaeology skill"
+        },
+        {
+          "name": "Ritual Tablet",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Ritual Chambers in The Mines",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig in Ritual Chambers found in The Mines; requires the Lost to History archaeology skill"
+        }
+      ]
+    },
+    {
+      "set": "Mist Artifact Set",
+      "items": [
+        {
+          "name": "Mist Crystal",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mist spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at Mist Spots; requires the Mist Sight archaeology skill"
+        },
+        {
+          "name": "Mist Flute",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mist spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at Mist Spots; requires the Mist Sight archaeology skill"
+        },
+        {
+          "name": "Mist Scroll",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mist spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at Mist Spots; requires the Mist Sight archaeology skill"
+        },
+        {
+          "name": "Misty Black Mirror",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mist spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at Mist Spots; requires the Mist Sight archaeology skill"
+        },
+        {
+          "name": "Misty Feather Quill",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mist spots (any area)",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at Mist Spots; requires the Mist Sight archaeology skill"
+        }
+      ]
+    },
+    {
+      "set": "Vintage Farm Tools Artifact Set",
+      "items": [
+        {
+          "name": "Vintage Brush",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm; requires the Former Farmers archaeology skill"
+        },
+        {
+          "name": "Vintage Cow Bell",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm; requires the Former Farmers archaeology skill"
+        },
+        {
+          "name": "Vintage Hammer",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm; requires the Former Farmers archaeology skill"
+        },
+        {
+          "name": "Vintage Sickle",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm; requires the Former Farmers archaeology skill"
+        },
+        {
+          "name": "Vintage Watering Can",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Digging (Archaeology)",
+          "notes": "Dig at dig spots on your farm; requires the Former Farmers archaeology skill"
+        }
+      ]
+    },
+    {
+      "set": "Metals Of Mistria Artifact Set",
+      "items": [
+        {
+          "name": "Perfect Copper Ore",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Mining",
+          "notes": "Break Copper nodes on Mines floors 1-19"
+        },
+        {
+          "name": "Perfect Gold Ore",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Mining",
+          "notes": "Break Gold nodes on Mines floors 61-79"
+        },
+        {
+          "name": "Perfect Iron Ore",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Mining",
+          "notes": "Break Iron nodes on Mines floors 21-39"
+        },
+        {
+          "name": "Perfect Mistril Ore",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Mining",
+          "notes": "Break Mistril nodes on Mines floors 81-99"
+        },
+        {
+          "name": "Perfect Silver Ore",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Mining",
+          "notes": "Break Silver nodes on Mines floors 41-59"
+        }
+      ]
+    },
+    {
+      "set": "Gems Of Mistria Artifact Set",
+      "items": [
+        {
+          "name": "Perfect Diamond",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Lava Caves",
+          "method": "Mining",
+          "notes": "Break Diamond nodes on Mines floors 61-79"
+        },
+        {
+          "name": "Perfect Emerald",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Deep Earth",
+          "method": "Mining",
+          "notes": "Break Emerald nodes on Mines floors 41-59"
+        },
+        {
+          "name": "Perfect Pink Diamond",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Ancient Ruins",
+          "method": "Mining",
+          "notes": "Break Pink Diamond nodes on Mines floors 81-99"
+        },
+        {
+          "name": "Perfect Ruby",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Upper Mines",
+          "method": "Mining",
+          "notes": "Break Ruby nodes on Mines floors 1-19"
+        },
+        {
+          "name": "Perfect Sapphire",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Mines - Tide Caverns",
+          "method": "Mining",
+          "notes": "Break Sapphire nodes on Mines floors 21-39"
+        }
+      ]
+    }
+  ]
+}

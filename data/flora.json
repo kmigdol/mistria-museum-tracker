@@ -1,0 +1,1440 @@
+{
+  "wing": "Flora",
+  "sets": [
+    {
+      "set": "Spring Crop",
+      "items": [
+        {
+          "name": "Cabbage",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Spring)",
+          "notes": "Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Cherry",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road",
+          "method": "Tree",
+          "notes": "grow from sapling; also foraged from wild trees; Balor's Wagon"
+        },
+        {
+          "name": "Potato",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Spring)",
+          "notes": "Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Strawberry",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Spring)",
+          "notes": "Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Turnip",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Spring)",
+          "notes": "Balor's Wagon; seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Spring Flower",
+      "items": [
+        {
+          "name": "Daffodil",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Sweetwater Farm, The Narrows",
+          "method": "Grow from seed (Spring)",
+          "notes": "can also be foraged; Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Dandelion",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mistria, The Narrows, Sweetwater Farm",
+          "method": "Forage",
+          "notes": "Balor's Wagon"
+        },
+        {
+          "name": "Lilac",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road, Sweetwater Farm",
+          "method": "Grow from seed (Spring)",
+          "notes": "can also be foraged; Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Snowdrop Anemone",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Western Ruins, The Beach (requires Story Quest \"Repair the Beach Bridge\" to be completed)",
+          "method": "Grow from seed (Spring)",
+          "notes": "can also be foraged; Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Tulip",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road, The Narrows, Sweetwater Farm",
+          "method": "Grow from seed (Spring)",
+          "notes": "can also be foraged; Balor's Wagon; seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Spring Forage",
+      "items": [
+        {
+          "name": "Fennel",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows, The Eastern Road",
+          "method": "Forage",
+          "notes": "Balor's Wagon"
+        },
+        {
+          "name": "Fiddlehead",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Narrows, Sweetwater Farm",
+          "method": "Forage",
+          "notes": "Balor's Wagon"
+        },
+        {
+          "name": "Morel Mushroom",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "No set spawn area, rarely spawn anywhere in the overworld.",
+          "method": "Forage",
+          "notes": "Balor's Wagon"
+        },
+        {
+          "name": "Nettle",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Forage",
+          "notes": "Balor's Wagon"
+        },
+        {
+          "name": "Wild Leek",
+          "seasons": [
+            "Spring"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Mistria, The Narrows, The Eastern Road",
+          "method": "Forage",
+          "notes": "Balor's Wagon"
+        }
+      ]
+    },
+    {
+      "set": "Summer Crop",
+      "items": [
+        {
+          "name": "Chili Pepper",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Corn",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Cucumber",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Tomato",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Watermelon",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Summer Flower",
+      "items": [
+        {
+          "name": "Catmint",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Narrows",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Cosmos",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Sweetwater Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Daisy",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Sweetwater Farm, The Narrows, The Western Ruins, The Eastern Road",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Iris",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Beach, The Narrows, Sweetwater Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Marigold",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Western Ruins, The Deep Woods",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Summer Forage",
+      "items": [
+        {
+          "name": "Basil",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Dill",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Narrows, The Beach, The Western Ruins",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Oregano",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Mistria",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Sage",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Narrows, The Beach",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Thyme",
+          "seasons": [
+            "Summer"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Sweetwater Farm",
+          "method": "Grow from seed (Summer)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Fall Crop",
+      "items": [
+        {
+          "name": "Apple",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road",
+          "method": "Tree",
+          "notes": "grow from sapling; also foraged from wild trees; Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Broccoli",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Cranberry",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Pumpkin",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Sweet Potato",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Fall Flower",
+      "items": [
+        {
+          "name": "Celosia",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Chrysanthemum",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Fog Orchid",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road, The Western Ruins",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Heather",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Mistria, The Beach, The Narrows",
+          "method": "Grow from seed (Fall)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Viola",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road",
+          "method": "Grow from seed (Fall)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Fall Forage",
+      "items": [
+        {
+          "name": "Chestnut",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Beach, Sweetwater Farm, The Narrows",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Garlic",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road (in the ruins)",
+          "method": "Grow from seed (Fall)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Horseradish",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm, The Eastern Road, The Beach",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Moon Fruit",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road , near the Wishing Well, Sweetwater Farm, The Beach",
+          "method": "Grow from seed (Fall)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Rosemary",
+          "seasons": [
+            "Fall"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Sweetwater Farm",
+          "method": "Grow from seed (Fall)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Winter Crop",
+      "items": [
+        {
+          "name": "Beet",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Winter)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Cauliflower",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Winter)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Daikon Radish",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Winter)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Pomegranate",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Narrows",
+          "method": "Tree",
+          "notes": "grow from sapling; also foraged from wild trees; Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Snow Peas",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm",
+          "method": "Grow from seed (Winter)",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Winter Flower",
+      "items": [
+        {
+          "name": "Crocus",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road, Sweetwater Farm, The Beach",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Frost Lily",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Eastern Road, The Beach, The Narrows",
+          "method": "Grow from seed (Winter)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Jasmine",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Sweetwater Farm, The Eastern Road",
+          "method": "Grow from seed (Winter)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Poinsettia",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Beach, The Narrows, Sweetwater Farm",
+          "method": "Grow from seed (Winter)",
+          "notes": "can also be foraged; Balor's Wagon; seed required to plant"
+        },
+        {
+          "name": "Snapdragon",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, The Western Ruins",
+          "method": "Grow from seed (Winter)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        }
+      ]
+    },
+    {
+      "set": "Winter Forage",
+      "items": [
+        {
+          "name": "Burdock Root",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Farm, Mistria, The Eastern Road, The Narrows (north); (appears as purple flowers)",
+          "method": "Grow from seed (Winter)",
+          "notes": "can also be foraged; Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Holly",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road, Sweetwater Farm",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Oyster Mushroom",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Eastern Road, Mistria, The Beach",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Pineshroom",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Sweetwater Farm",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Rose Hip",
+          "seasons": [
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Manor's Gardens (grows on the bushes near the gazebo) Mistria",
+          "method": "Forage",
+          "notes": "bush forageable; Balor's Wagon (conditional)"
+        }
+      ]
+    },
+    {
+      "set": "Deep Woods",
+      "items": [
+        {
+          "name": "Thorn Vine",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Spirit Mushroom",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Temple Flower",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional); seed required to plant"
+        },
+        {
+          "name": "Walnut",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Forage",
+          "notes": "Balor's Wagon (conditional)"
+        },
+        {
+          "name": "Bell Berry",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Woods",
+          "method": "Forage",
+          "notes": "bush forageable; Balor's Wagon (conditional)"
+        }
+      ]
+    },
+    {
+      "set": "Upper Mines",
+      "items": [
+        {
+          "name": "Narrows Moss",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Forage",
+          "notes": "floors 1-19"
+        },
+        {
+          "name": "Red Toadstool",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Monster drop",
+          "notes": "floors 1-19"
+        },
+        {
+          "name": "Shadow Flower",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Forage",
+          "notes": "floors 1-19"
+        },
+        {
+          "name": "Sweetroot",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Forage",
+          "notes": "floors 1-19"
+        },
+        {
+          "name": "Upper Mines Mushroom",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Upper Mines (floors 1-19)",
+          "method": "Forage",
+          "notes": "floors 1-19"
+        }
+      ]
+    },
+    {
+      "set": "Tide Caverns",
+      "items": [
+        {
+          "name": "Jade Dulse",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Tide Caverns (floors 21-39) \u2014 Underseaweed spawns exclusively in water.",
+          "method": "Forage",
+          "notes": "floors 21-39"
+        },
+        {
+          "name": "Mines Mussels",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Tide Caverns (floors 21-39) \u2014 Underseaweed spawns exclusively in water.",
+          "method": "Forage",
+          "notes": "floors 21-39"
+        },
+        {
+          "name": "Sea Grapes",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Tide Caverns (floors 21-39) \u2014 Underseaweed spawns exclusively in water.",
+          "method": "Forage",
+          "notes": "floors 21-39"
+        },
+        {
+          "name": "Tide Lettuce",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Tide Caverns (floors 21-39) \u2014 Underseaweed spawns exclusively in water.",
+          "method": "Forage",
+          "notes": "floors 21-39"
+        },
+        {
+          "name": "Underseaweed",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Tide Caverns (floors 21-39) \u2014 Underseaweed spawns exclusively in water.",
+          "method": "Forage",
+          "notes": "spawns exclusively in water; floors 21-39"
+        }
+      ]
+    },
+    {
+      "set": "Deep Earth",
+      "items": [
+        {
+          "name": "Crystal Berries",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Forage",
+          "notes": "floors 41-59"
+        },
+        {
+          "name": "Crystal Rose",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Forage",
+          "notes": "floors 41-59"
+        },
+        {
+          "name": "Earthshroom",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Forage",
+          "notes": "floors 41-59"
+        },
+        {
+          "name": "Rockroot",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Forage",
+          "notes": "floors 41-59"
+        },
+        {
+          "name": "Shale Grass",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Deep Earth (floors 41-59)",
+          "method": "Forage",
+          "notes": "floors 41-59"
+        }
+      ]
+    },
+    {
+      "set": "Lava Caves",
+      "items": [
+        {
+          "name": "Ash Mushroom",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Forage",
+          "notes": "floors 61-79"
+        },
+        {
+          "name": "Breath of Flame",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Forage",
+          "notes": "floors 61-79"
+        },
+        {
+          "name": "Flame Pepper",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Forage",
+          "notes": "floors 61-79"
+        },
+        {
+          "name": "Hot Potato",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Forage",
+          "notes": "floors 61-79"
+        },
+        {
+          "name": "Lava Chestnuts",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Lava Caves (floors 61-79)",
+          "method": "Forage",
+          "notes": "floors 61-79"
+        }
+      ]
+    },
+    {
+      "set": "Ruins",
+      "items": [
+        {
+          "name": "Chirping Fern",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Forage",
+          "notes": "floors 81-99"
+        },
+        {
+          "name": "Essence Blossom",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Forage",
+          "notes": "floors 81-99"
+        },
+        {
+          "name": "Ethereal Grass",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Forage",
+          "notes": "floors 81-99"
+        },
+        {
+          "name": "Spell Fruit",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Forage",
+          "notes": "floors 81-99"
+        },
+        {
+          "name": "Written Root",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Forage",
+          "notes": "floors 81-99"
+        }
+      ]
+    },
+    {
+      "set": "Void Forage",
+      "items": [
+        {
+          "name": "Void Herb",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any Floor Without a Seal",
+          "method": "Forage",
+          "notes": "requires Void Sight"
+        },
+        {
+          "name": "Void Pearl",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any Floor Without a Seal",
+          "method": "Fishing",
+          "notes": "requires Void Sight"
+        },
+        {
+          "name": "Void Powder",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any Floor Without a Seal",
+          "method": "Monster drop",
+          "notes": "requires Void Sight"
+        },
+        {
+          "name": "Void Stone",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "Any Floor Without a Seal",
+          "method": "Mining",
+          "notes": "requires Void Sight"
+        },
+        {
+          "name": "Voidite",
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "weather": [
+            "Any"
+          ],
+          "time": "Any",
+          "location": "The Ancient Ruins (floors 81-99)",
+          "method": "Mining",
+          "notes": "floors 81-99"
+        }
+      ]
+    }
+  ]
+}

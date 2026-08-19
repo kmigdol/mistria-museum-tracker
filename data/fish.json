@@ -1,0 +1,1677 @@
+{
+ "wing": "Fish",
+ "sets": [
+  {
+   "set": "Multi-Season Fish Set",
+   "items": [
+    {
+     "name": "Koi",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Pike",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "also obtainable by diving"
+    },
+    {
+     "name": "Pollock",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "also obtainable by diving"
+    },
+    {
+     "name": "Smallmouth Bass",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "also obtainable by diving"
+    },
+    {
+     "name": "Trout",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "also obtainable by diving"
+    }
+   ]
+  },
+  {
+   "set": "Spring River Fish Set",
+   "items": [
+    {
+     "name": "Bluegill",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Carp",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Chub",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 90g"
+    },
+    {
+     "name": "Paddlefish",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Walleye",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Rain",
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rainy/Rain/Thunderstorm"
+    }
+   ]
+  },
+  {
+   "set": "Spring Pond Fish Set",
+   "items": [
+    {
+     "name": "Angel Fish",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Barb",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Brown Trout",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Crucian Carp",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Goldfish",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    }
+   ]
+  },
+  {
+   "set": "Spring Ocean Fish Set",
+   "items": [
+    {
+     "name": "Anchovy",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "also obtainable by diving; also sold at Tackle Shop for 70g"
+    },
+    {
+     "name": "Lobster",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Mackerel",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Rain",
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rainy/Rain/Thunderstorm"
+    },
+    {
+     "name": "Ocean Sunfish",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Shrimp",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "set": "Summer River Fish Set",
+   "items": [
+    {
+     "name": "Bream",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Loach",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 90g"
+    },
+    {
+     "name": "Minnow",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Sweetfish",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Tarpon",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    }
+   ]
+  },
+  {
+   "set": "Summer Pond Fish Set",
+   "items": [
+    {
+     "name": "Brown Bullhead",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Giant Koi",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Golden Shiner",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Lake Chub",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 70g"
+    },
+    {
+     "name": "Sauger",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "set": "Summer Ocean Fish Set",
+   "items": [
+    {
+     "name": "Char",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Crab",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Dart",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 90g"
+    },
+    {
+     "name": "Grouper",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Stingray",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "set": "Fall River Fish Set",
+   "items": [
+    {
+     "name": "Grayling",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Rain",
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 80g; wiki weather: Rainy/Rain/Storm/Thunderstorm"
+    },
+    {
+     "name": "Lamprey",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Perch",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Rain",
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rainy/Rain/Storm"
+    },
+    {
+     "name": "Razorback",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Shad",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "set": "Fall Pond Fish Set",
+   "items": [
+    {
+     "name": "Bluefish",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Rain",
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rainy/Rain/Storm/Thunderstorm"
+    },
+    {
+     "name": "Killifish",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Rainbow Trout",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Striped Bass",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "White Perch",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    }
+   ]
+  },
+  {
+   "set": "Fall Ocean Fish Set",
+   "items": [
+    {
+     "name": "Butterfish",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 80g"
+    },
+    {
+     "name": "Halibut",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Rain",
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rainy/Rain/Storm/Thunderstorm"
+    },
+    {
+     "name": "Mullet",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Saury",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Shark",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    }
+   ]
+  },
+  {
+   "set": "Winter River Fish Set",
+   "items": [
+    {
+     "name": "Bowfish",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Dace",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Snow"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Snow/Blizzard"
+    },
+    {
+     "name": "Freshwater Eel",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Herring",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Shadow Bass",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    }
+   ]
+  },
+  {
+   "set": "Winter Pond Fish Set",
+   "items": [
+    {
+     "name": "Alligator Gar",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Burbot",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Snow"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Snow/Blizzard"
+    },
+    {
+     "name": "Flathead Catfish",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Giant Tilapia",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "Uncommon"
+    },
+    {
+     "name": "Tilapia",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 90g"
+    }
+   ]
+  },
+  {
+   "set": "Winter Ocean Fish Set",
+   "items": [
+    {
+     "name": "Horse Mackerel",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "King Crab",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Snow"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Snow/Blizzard"
+    },
+    {
+     "name": "Oarfish",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "Rare"
+    },
+    {
+     "name": "Sand Lance",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Sea Bass",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod",
+     "notes": "also sold at Tackle Shop for 80g"
+    }
+   ]
+  },
+  {
+   "set": "Fish Bait Set",
+   "items": [
+    {
+     "name": "Massive Minnow",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Any water (river, pond, or ocean)",
+     "method": "Fishing rod with bait",
+     "notes": "requires fish bait (common bait fish)"
+    },
+    {
+     "name": "Copper Rockfish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Any water (river, pond, or ocean)",
+     "method": "Fishing rod with bait",
+     "notes": "requires fish bait (common bait fish)"
+    },
+    {
+     "name": "Iron Fish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Any water (river, pond, or ocean)",
+     "method": "Fishing rod with bait",
+     "notes": "Uncommon; requires fish bait (uncommon bait fish)"
+    },
+    {
+     "name": "Silver Squid",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Any water (river, pond, or ocean)",
+     "method": "Fishing rod with bait",
+     "notes": "Uncommon; requires fish bait (uncommon bait fish)"
+    },
+    {
+     "name": "Golden Eel",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Any water (river, pond, or ocean)",
+     "method": "Fishing rod with bait",
+     "notes": "Rare; requires fish bait (rare bait fish)"
+    }
+   ]
+  },
+  {
+   "set": "Fish Trap Set",
+   "items": [
+    {
+     "name": "Blue Crab",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Fish trap (any water)",
+     "method": "Fish trap with bait",
+     "notes": "requires Fish Trap with bait"
+    },
+    {
+     "name": "Sea Urchin",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Fish trap (any water)",
+     "method": "Fish trap with bait",
+     "notes": "Uncommon; requires Fish Trap with bait"
+    },
+    {
+     "name": "Bait Thief",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Fish trap (any water)",
+     "method": "Fish trap with bait",
+     "notes": "requires Fish Trap with bait"
+    },
+    {
+     "name": "Hake",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Fish trap (any water)",
+     "method": "Fish trap with bait",
+     "notes": "Uncommon; requires Fish Trap with bait"
+    },
+    {
+     "name": "Amberjack",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Fish trap (any water)",
+     "method": "Fish trap with bait",
+     "notes": "Rare; requires Fish Trap with bait"
+    }
+   ]
+  },
+  {
+   "set": "Deep Woods Fish Set",
+   "items": [
+    {
+     "name": "Sunny",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Rain",
+      "Storm",
+      "Snow"
+     ],
+     "time": "Any",
+     "location": "Deep Woods",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rain/Thunderstorm/Snow/Blizzard"
+    },
+    {
+     "name": "Forest Perch",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Rain",
+      "Storm",
+      "Snow"
+     ],
+     "time": "Any",
+     "location": "Deep Woods",
+     "method": "Fishing rod",
+     "notes": "wiki weather: Rain/Thunderstorm/Snow/Blizzard"
+    },
+    {
+     "name": "Silver Redhorse",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Deep Woods",
+     "method": "Fishing rod",
+     "notes": "Uncommon"
+    },
+    {
+     "name": "Lake Trout",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Deep Woods",
+     "method": "Fishing rod",
+     "notes": ""
+    },
+    {
+     "name": "Muskie",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Deep Woods",
+     "method": "Fishing rod",
+     "notes": "Uncommon"
+    }
+   ]
+  },
+  {
+   "set": "Upper Mines Fish Set",
+   "items": [
+    {
+     "name": "Cave Eel",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Upper Mines",
+     "method": "Fishing rod",
+     "notes": "Mines floors 1-29; Uncommon"
+    },
+    {
+     "name": "Cave Shark",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Upper Mines",
+     "method": "Fishing rod",
+     "notes": "Mines floors 1-29; Rare"
+    },
+    {
+     "name": "Cave Shrimp",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Upper Mines",
+     "method": "Fishing rod",
+     "notes": "Mines floors 1-29"
+    },
+    {
+     "name": "Rock Guppy",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Upper Mines",
+     "method": "Fishing rod",
+     "notes": "Mines floors 1-29; Uncommon"
+    },
+    {
+     "name": "Stone Loach",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Upper Mines",
+     "method": "Fishing rod",
+     "notes": "Mines floors 1-29"
+    }
+   ]
+  },
+  {
+   "set": "Tide Caverns Fish Set",
+   "items": [
+    {
+     "name": "Archerfish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Tide Caverns",
+     "method": "Fishing rod",
+     "notes": "Mines floors 30-59; Uncommon"
+    },
+    {
+     "name": "Mini-Whale Shark",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Tide Caverns",
+     "method": "Fishing rod",
+     "notes": "Mines floors 30-59; Rare"
+    },
+    {
+     "name": "Sapphire Betta",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Tide Caverns",
+     "method": "Fishing rod",
+     "notes": "Mines floors 30-59"
+    },
+    {
+     "name": "Transparent Jellyfish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Tide Caverns",
+     "method": "Fishing rod",
+     "notes": "Mines floors 30-59"
+    },
+    {
+     "name": "Water Balloon Fish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Tide Caverns",
+     "method": "Fishing rod",
+     "notes": "Mines floors 30-59; Uncommon"
+    }
+   ]
+  },
+  {
+   "set": "Deep Earth Fish Set",
+   "items": [
+    {
+     "name": "Earth Eel",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Deep Earth",
+     "method": "Fishing rod",
+     "notes": "Mines floors 60-89"
+    },
+    {
+     "name": "Emerald Horned Charger",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Deep Earth",
+     "method": "Fishing rod",
+     "notes": "Mines floors 60-89; Rare"
+    },
+    {
+     "name": "Pebble Minnow",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Deep Earth",
+     "method": "Fishing rod",
+     "notes": "Mines floors 60-89"
+    },
+    {
+     "name": "Rockbiter",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Deep Earth",
+     "method": "Fishing rod",
+     "notes": "Mines floors 60-89; Uncommon"
+    },
+    {
+     "name": "Shardfin",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "The Deep Earth",
+     "method": "Fishing rod",
+     "notes": "Mines floors 60-89; Uncommon"
+    }
+   ]
+  },
+  {
+   "set": "Lava Caves Fish Set",
+   "items": [
+    {
+     "name": "Armored Bass",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Lava Caves",
+     "method": "Fishing rod",
+     "notes": "Mines floors 90-119"
+    },
+    {
+     "name": "Candelabra Seadragon",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Lava Caves",
+     "method": "Fishing rod",
+     "notes": "Mines floors 90-119; Uncommon"
+    },
+    {
+     "name": "Firesail Fish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Lava Caves",
+     "method": "Fishing rod",
+     "notes": "Mines floors 90-119; Rare"
+    },
+    {
+     "name": "Lava Piranha",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Lava Caves",
+     "method": "Fishing rod",
+     "notes": "Mines floors 90-119"
+    },
+    {
+     "name": "Sulfur Crab",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Lava Caves",
+     "method": "Fishing rod",
+     "notes": "Mines floors 90-119; Uncommon"
+    }
+   ]
+  },
+  {
+   "set": "Ruins Fish Set",
+   "items": [
+    {
+     "name": "Winged Shrimp",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ancient Ruins",
+     "method": "Fishing rod",
+     "notes": "Mines floors 120+"
+    },
+    {
+     "name": "Gazer",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ancient Ruins",
+     "method": "Fishing rod",
+     "notes": "Mines floors 120+; Uncommon"
+    },
+    {
+     "name": "Luminescent Crab",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ancient Ruins",
+     "method": "Fishing rod",
+     "notes": "Mines floors 120+"
+    },
+    {
+     "name": "Giant Jellyfish",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ancient Ruins",
+     "method": "Fishing rod",
+     "notes": "Mines floors 120+"
+    },
+    {
+     "name": "Coelacanth",
+     "seasons": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+     ],
+     "weather": [
+      "Any"
+     ],
+     "time": "Any",
+     "location": "Ancient Ruins",
+     "method": "Fishing rod",
+     "notes": "Mines floors 120+; Rare"
+    }
+   ]
+  },
+  {
+   "set": "Legendary Fish Set",
+   "items": [
+    {
+     "name": "Cherry Fish",
+     "seasons": [
+      "Spring"
+     ],
+     "weather": [
+      "Windy"
+     ],
+     "time": "Any",
+     "location": "Pond",
+     "method": "Fishing rod (legendary)",
+     "notes": "Legendary; one per save; wiki weather: Springwind"
+    },
+    {
+     "name": "Leaf Fish",
+     "seasons": [
+      "Fall"
+     ],
+     "weather": [
+      "Windy"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod (legendary)",
+     "notes": "Legendary; one per save; wiki weather: Fallwind"
+    },
+    {
+     "name": "Lightning Fish",
+     "seasons": [
+      "Summer"
+     ],
+     "weather": [
+      "Storm"
+     ],
+     "time": "Any",
+     "location": "River",
+     "method": "Fishing rod (legendary)",
+     "notes": "Legendary; one per save; wiki weather: Storm/Thunderstorm"
+    },
+    {
+     "name": "Snow Fish",
+     "seasons": [
+      "Winter"
+     ],
+     "weather": [
+      "Snow"
+     ],
+     "time": "Any",
+     "location": "Ocean",
+     "method": "Fishing rod (legendary)",
+     "notes": "Legendary; one per save; wiki weather: Blizzard"
+    }
+   ]
+  }
+ ]
+}
