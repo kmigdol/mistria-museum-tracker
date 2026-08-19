@@ -21,6 +21,16 @@ Everything is in one self-contained `index.html`, including all 409 item sprites
 
 **Vercel:** import the repo at [vercel.com/new](https://vercel.com/new). No framework, no build command, output directory `.` — `vercel.json` is already here.
 
+## Analytics
+
+Page views go to [GoatCounter](https://www.goatcounter.com) — cookieless, no personal data,
+no tracking across sites, so there's no consent banner to click. Dashboard:
+[kayleigh.goatcounter.com](https://kayleigh.goatcounter.com). The snippet lives in
+`build/template.html`, so change it there and rebuild, not in `index.html`.
+
+It ignores localhost, so local testing never shows up. To skip your own visits on the live
+site, run `localStorage.setItem('skipgc', 't')` in the browser console once.
+
 ## Rebuilding the data
 
 `index.html` is generated. The source data lives in `data/*.json` (one file per wing, item-level season/weather/time/location/method/notes), and `build/` holds the page template, the sprite icons, and the scripts:
