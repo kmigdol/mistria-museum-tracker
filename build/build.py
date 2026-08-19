@@ -38,5 +38,5 @@ for w in data:
 
 icons=json.load(open('icons.json'))
 out=t.replace('__DATA__', json.dumps(data,ensure_ascii=False)).replace('__ICONS__', json.dumps(icons))
-open('mistria-museum-tracker.html','w').write(out)
+open('../index.html','w').write(out)
 print(round(len(out)/1024),'KB')
