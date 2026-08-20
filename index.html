@@ -99,6 +99,33 @@ dialog{border:1px solid var(--line);border-radius:var(--r);background:var(--card
 dialog::backdrop{background:rgba(40,30,20,.45)}
 dialog h3{margin:0 0 6px;font-size:16px}
 dialog p{margin:0 0 10px;font-size:13px;color:var(--ink-soft)}
+/* Collapsible filter panel — mobile only.
+   On a phone the four rows of pills stack to ~730px, taller than the viewport, and the
+   bar is sticky, so it pins over the whole list. Below 720px the bar gets a header that
+   toggles the controls, the controls themselves are capped and scroll internally, and the
+   bar only sticks while collapsed (an expanded sticky panel would occlude the list too). */
+.bar-toggle{display:none}
+@media (max-width:720px){
+  .bar{padding:0;position:static}
+  .bar[data-open="false"]{position:sticky;top:0}
+  .bar-toggle{display:flex;width:100%;align-items:center;gap:8px;padding:11px 13px;
+    border:0;background:none;color:var(--ink);font:inherit;font-size:13px;text-align:left;
+    cursor:pointer;border-radius:var(--r)}
+  .bar-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .bar-tag{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);
+    font-weight:600;flex:none}
+  .bar-summary{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+    color:var(--ink-soft)}
+  .bar-chevron{flex:none;color:var(--ink-soft);transition:transform .18s}
+  .bar[data-open="false"] .bar-chevron{transform:rotate(-90deg)}
+  .bar[data-open="false"] .bar-body{display:none}
+  .bar-body{padding:0 12px 12px;max-height:min(62vh,520px);overflow-y:auto;
+    overscroll-behavior:contain}
+  /* the toggle already separates the header from the controls */
+  .bar-body > .row:first-child{padding-top:12px;border-top:1px dashed var(--line)}
+  /* finger-sized targets — the desktop pills are ~28px tall */
+  .pill,.sw,.btn{padding:8px 14px}
+}
 textarea{width:100%;height:130px;border:1px solid var(--line);border-radius:8px;background:var(--bg2);
   color:var(--ink);font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;padding:8px;resize:vertical}
 </style>
@@ -114,7 +141,13 @@ textarea{width:100%;height:130px;border:1px solid var(--line);border-radius:8px;
   <div class="sub">82 sets · 409 donations. Tick things off as you donate them; set the season and weather to see what today can give you.</div>
 </header>
 
-<div class="bar">
+<div class="bar" id="bar">
+  <button class="bar-toggle" id="barToggle" type="button" aria-expanded="true" aria-controls="barBody">
+    <span class="bar-tag">Filters</span>
+    <span class="bar-summary" id="barSummary"></span>
+    <span class="bar-chevron" aria-hidden="true">▾</span>
+  </button>
+  <div class="bar-body" id="barBody">
   <div class="row">
     <span class="lbl">Season</span>
     <div class="pills" id="seasons"></div>
@@ -138,6 +171,7 @@ textarea{width:100%;height:130px;border:1px solid var(--line);border-radius:8px;
     <button class="btn" id="exportBtn">Export</button>
     <button class="btn" id="importBtn">Import</button>
     <button class="btn" id="resetBtn">Reset</button>
+  </div>
   </div>
 </div>
 
@@ -221,6 +255,18 @@ function visible(it){
   return true;
 }
 
+// One-line readout of what is filtered, for the collapsed mobile header.
+function filterSummary(){
+  const bits = [state.season, state.weather];
+  if(state.loc !== "Anywhere") bits.push(state.loc);
+  if(state.wing !== "All") bits.push(state.wing);
+  if(state.onlyAvail) bits.push("today only");
+  if(state.exclusive) bits.push("time-limited only");
+  if(state.hideDone) bits.push("donated hidden");
+  if(state.q) bits.push("\u201c" + state.q + "\u201d");
+  return bits.join(" \u00b7 ");
+}
+
 function pills(host, values, get, set, disabledFn){
   host.innerHTML = "";
   values.forEach(v => {
@@ -242,6 +288,7 @@ function render(){
     v => !WEATHER_BY_SEASON[state.season].includes(v));
   pills(document.getElementById("wings"), WINGS, ()=>state.wing, v=>state.wing=v);
   pills(document.getElementById("locs"), LOCS, ()=>state.loc, v=>state.loc=v);
+  document.getElementById("barSummary").textContent = filterSummary();
 
   // stats
   const wingStat = w => {
@@ -326,6 +373,23 @@ function render(){
   }));
   document.getElementById("empty").hidden = shown > 0;
 }
+
+// Filter panel open/closed. Its own key, deliberately not in `store` — that is keyed by
+// item id and Export/Import round-trips Object.keys(store), so a stray key would ship as
+// a fake donation. Open on first visit; a visitor who collapses it stays collapsed.
+const OPEN_KEY = "mistria-museum-filters-open";
+const bar = document.getElementById("bar"), barToggle = document.getElementById("barToggle");
+let filtersOpen = true;
+try { filtersOpen = localStorage.getItem(OPEN_KEY) !== "0"; } catch(e){}
+function setFiltersOpen(v){
+  filtersOpen = v;
+  bar.dataset.open = String(v);
+  barToggle.setAttribute("aria-expanded", String(v));
+  barToggle.title = v ? "Hide the filters" : "Show the filters";
+  try { localStorage.setItem(OPEN_KEY, v ? "1" : "0"); } catch(e){}
+}
+setFiltersOpen(filtersOpen);
+barToggle.onclick = () => setFiltersOpen(!filtersOpen);
 
 document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
 document.getElementById("onlyAvail").onchange = e => { state.onlyAvail = e.target.checked; render(); };
