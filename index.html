@@ -116,7 +116,11 @@ dialog p{margin:0 0 10px;font-size:13px;color:var(--ink-soft)}
     font-weight:600;flex:none}
   .bar-summary{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
     color:var(--ink-soft)}
-  .bar-chevron{flex:none;color:var(--ink-soft);transition:transform .18s}
+  /* Sized and coloured as a control, not a decoration — at 13px in --ink-soft it read
+     as punctuation and people missed that the header was tappable at all. */
+  .bar-chevron{flex:none;display:flex;align-items:center;justify-content:center;
+    width:30px;height:30px;border-radius:50%;background:var(--accent-soft);
+    color:var(--accent);font-size:19px;line-height:1;transition:transform .18s}
   .bar[data-open="false"] .bar-chevron{transform:rotate(-90deg)}
   .bar[data-open="false"] .bar-body{display:none}
   .bar-body{padding:0 12px 12px;max-height:min(62vh,520px);overflow-y:auto;
