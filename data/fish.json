@@ -1208,7 +1208,7 @@
      "time": "Any",
      "location": "The Upper Mines",
      "method": "Fishing rod",
-     "notes": "Mines floors 1-29; Uncommon"
+     "notes": "Mines floors 2-19; Uncommon"
     },
     {
      "name": "Cave Shark",
@@ -1224,7 +1224,7 @@
      "time": "Any",
      "location": "The Upper Mines",
      "method": "Fishing rod",
-     "notes": "Mines floors 1-29; Rare"
+     "notes": "Mines floors 2-19; Rare"
     },
     {
      "name": "Cave Shrimp",
@@ -1240,7 +1240,7 @@
      "time": "Any",
      "location": "The Upper Mines",
      "method": "Fishing rod",
-     "notes": "Mines floors 1-29"
+     "notes": "Mines floors 2-19"
     },
     {
      "name": "Rock Guppy",
@@ -1256,7 +1256,7 @@
      "time": "Any",
      "location": "The Upper Mines",
      "method": "Fishing rod",
-     "notes": "Mines floors 1-29; Uncommon"
+     "notes": "Mines floors 2-19; Uncommon"
     },
     {
      "name": "Stone Loach",
@@ -1272,7 +1272,7 @@
      "time": "Any",
      "location": "The Upper Mines",
      "method": "Fishing rod",
-     "notes": "Mines floors 1-29"
+     "notes": "Mines floors 2-19"
     }
    ]
   },
@@ -1293,7 +1293,7 @@
      "time": "Any",
      "location": "The Tide Caverns",
      "method": "Fishing rod",
-     "notes": "Mines floors 30-59; Uncommon"
+     "notes": "Mines floors 21-39; Uncommon"
     },
     {
      "name": "Mini-Whale Shark",
@@ -1309,7 +1309,7 @@
      "time": "Any",
      "location": "The Tide Caverns",
      "method": "Fishing rod",
-     "notes": "Mines floors 30-59; Rare"
+     "notes": "Mines floors 21-39; Rare"
     },
     {
      "name": "Sapphire Betta",
@@ -1325,7 +1325,7 @@
      "time": "Any",
      "location": "The Tide Caverns",
      "method": "Fishing rod",
-     "notes": "Mines floors 30-59"
+     "notes": "Mines floors 21-39"
     },
     {
      "name": "Transparent Jellyfish",
@@ -1341,7 +1341,7 @@
      "time": "Any",
      "location": "The Tide Caverns",
      "method": "Fishing rod",
-     "notes": "Mines floors 30-59"
+     "notes": "Mines floors 21-39"
     },
     {
      "name": "Water Balloon Fish",
@@ -1357,7 +1357,7 @@
      "time": "Any",
      "location": "The Tide Caverns",
      "method": "Fishing rod",
-     "notes": "Mines floors 30-59; Uncommon"
+     "notes": "Mines floors 21-39; Uncommon"
     }
    ]
   },
@@ -1378,7 +1378,7 @@
      "time": "Any",
      "location": "The Deep Earth",
      "method": "Fishing rod",
-     "notes": "Mines floors 60-89"
+     "notes": "Mines floors 41-59"
     },
     {
      "name": "Emerald Horned Charger",
@@ -1394,7 +1394,7 @@
      "time": "Any",
      "location": "The Deep Earth",
      "method": "Fishing rod",
-     "notes": "Mines floors 60-89; Rare"
+     "notes": "Mines floors 41-59; Rare"
     },
     {
      "name": "Pebble Minnow",
@@ -1410,7 +1410,7 @@
      "time": "Any",
      "location": "The Deep Earth",
      "method": "Fishing rod",
-     "notes": "Mines floors 60-89"
+     "notes": "Mines floors 41-59"
     },
     {
      "name": "Rockbiter",
@@ -1426,7 +1426,7 @@
      "time": "Any",
      "location": "The Deep Earth",
      "method": "Fishing rod",
-     "notes": "Mines floors 60-89; Uncommon"
+     "notes": "Mines floors 41-59; Uncommon"
     },
     {
      "name": "Shardfin",
@@ -1442,7 +1442,7 @@
      "time": "Any",
      "location": "The Deep Earth",
      "method": "Fishing rod",
-     "notes": "Mines floors 60-89; Uncommon"
+     "notes": "Mines floors 41-59; Uncommon"
     }
    ]
   },
@@ -1463,7 +1463,7 @@
      "time": "Any",
      "location": "Lava Caves",
      "method": "Fishing rod",
-     "notes": "Mines floors 90-119"
+     "notes": "Mines floors 61-79"
     },
     {
      "name": "Candelabra Seadragon",
@@ -1479,7 +1479,7 @@
      "time": "Any",
      "location": "Lava Caves",
      "method": "Fishing rod",
-     "notes": "Mines floors 90-119; Uncommon"
+     "notes": "Mines floors 61-79; Uncommon"
     },
     {
      "name": "Firesail Fish",
@@ -1495,7 +1495,7 @@
      "time": "Any",
      "location": "Lava Caves",
      "method": "Fishing rod",
-     "notes": "Mines floors 90-119; Rare"
+     "notes": "Mines floors 61-79; Rare"
     },
     {
      "name": "Lava Piranha",
@@ -1511,7 +1511,7 @@
      "time": "Any",
      "location": "Lava Caves",
      "method": "Fishing rod",
-     "notes": "Mines floors 90-119"
+     "notes": "Mines floors 61-79"
     },
     {
      "name": "Sulfur Crab",
@@ -1527,7 +1527,7 @@
      "time": "Any",
      "location": "Lava Caves",
      "method": "Fishing rod",
-     "notes": "Mines floors 90-119; Uncommon"
+     "notes": "Mines floors 61-79; Uncommon"
     }
    ]
   },
@@ -1548,7 +1548,7 @@
      "time": "Any",
      "location": "Ancient Ruins",
      "method": "Fishing rod",
-     "notes": "Mines floors 120+"
+     "notes": "Mines floors 81-89, 91-99"
     },
     {
      "name": "Gazer",
@@ -1564,7 +1564,7 @@
      "time": "Any",
      "location": "Ancient Ruins",
      "method": "Fishing rod",
-     "notes": "Mines floors 120+; Uncommon"
+     "notes": "Mines floors 81-89, 91-99; Uncommon"
     },
     {
      "name": "Luminescent Crab",
@@ -1580,7 +1580,7 @@
      "time": "Any",
      "location": "Ancient Ruins",
      "method": "Fishing rod",
-     "notes": "Mines floors 120+"
+     "notes": "Mines floors 81-89, 91-99"
     },
     {
      "name": "Giant Jellyfish",
@@ -1596,7 +1596,7 @@
      "time": "Any",
      "location": "Ancient Ruins",
      "method": "Fishing rod",
-     "notes": "Mines floors 120+"
+     "notes": "Mines floors 81-89, 91-99"
     },
     {
      "name": "Coelacanth",
@@ -1612,7 +1612,7 @@
      "time": "Any",
      "location": "Ancient Ruins",
      "method": "Fishing rod",
-     "notes": "Mines floors 120+; Rare"
+     "notes": "Mines floors 81-89, 91-99; Rare"
     }
    ]
   },
