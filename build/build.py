@@ -15,6 +15,23 @@ for w in data:
             it['weather']=sorted(set(it['weather']), key=lambda x: ORDER.index(x) if x in ORDER else 9)
             it['notes']='; '.join(p.strip() for p in it['notes'].split(';') if p.strip() and not re.match(r'(?i)^wiki weather',p.strip()))
             it['tags']=tags(it['location'])
+
+# Mine floor ranges per biome, from the wiki's BiomesQuick template (the seals sit on floors
+# 20/40/60/80/100 and belong to no biome). Fish use the Fishing page's fishable floors instead:
+# floor 1 has no water and floor 90 is the Priestess' Chambers.
+MINE_FLOORS={"Upper Mines":"1-19","Tide Caverns":"21-39","Deep Earth":"41-59",
+             "Lava Caves":"61-79","Ancient Ruins":"81-99"}
+FISH_FLOORS={**MINE_FLOORS,"Upper Mines":"2-19","Ancient Ruins":"81-89, 91-99"}
+bad=[]
+for w in data:
+    expect=FISH_FLOORS if w['wing']=='Fish' else MINE_FLOORS
+    for s in w['sets']:
+        for it in s['items']:
+            layers=[x for x in it['tags'] if x in MINE_FLOORS]
+            got=re.findall(r'floors ([0-9][0-9, +-]*[0-9+])', it['location']+' | '+it['notes'])
+            if len(layers)==1 and got and set(got)!={expect[layers[0]]}:
+                bad.append((w['wing'],it['name'],layers[0],got,expect[layers[0]]))
+assert not bad, 'mine floor ranges disagree with the wiki:\n'+'\n'.join(map(str,bad))
 # in-game set order (Insects order supplied by the player)
 ORDER_BY_WING={
  "Insects":["Multi-Season","Spring","Summer","Fall","Winter","Rare","Bee",
