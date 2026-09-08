@@ -48,7 +48,8 @@ Data was pulled per-item from the [Fields of Mistria Wiki](https://fieldsofmistr
 ## Notes on the data
 
 - The wiki records **no time-of-day for fish**, so every fish shows "Any" — that's missing data, not a claim they bite at 3am. Insects have real time windows.
-- Mine floor ranges come from the wiki's biome-to-floor mapping (Upper Mines 1-19, Tide Caverns 21-39, Deep Earth 41-59, Lava Caves 61-79, Ancient Ruins 81-99; the seals on 20/40/60/80/100 belong to no biome); individual pages name only the biome. Fish use the fishable floors from the wiki's Fishing page instead: Upper Mines 2-19 (floor 1 has no water) and Ancient Ruins 81-89, 91-99 (floor 90 is the Priestess' Chambers). `build.py` fails the build if any item's floors disagree with this mapping.
+- Mine floor ranges come from the wiki's biome-to-floor mapping (Upper Mines 1-19, Tide Caverns 21-39, Deep Earth 41-59, Lava Caves 61-79, Ancient Ruins 81-99; the seals on 20/40/60/80/100 belong to no biome); individual pages name only the biome. Every wing uses the same ranges. `build.py` fails the build if any item's floors disagree with this mapping.
+- Fish and insect rarity (`rarity: Common/Uncommon/Rare/…`) comes from each item's wiki infobox.
 - Insects wing set order follows the in-game museum. The other three wings follow the wiki's order.
 
 Not affiliated with NPC Studio. Game data © its respective owners; wiki content under the [wiki.gg](https://fieldsofmistria.wiki.gg) licence.

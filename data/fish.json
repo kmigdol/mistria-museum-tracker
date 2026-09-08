@@ -18,7 +18,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Pike",
@@ -34,7 +34,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "also obtainable by diving"
+     "notes": "also obtainable by diving; rarity: Common"
     },
     {
      "name": "Pollock",
@@ -50,7 +50,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "also obtainable by diving"
+     "notes": "also obtainable by diving; rarity: Common"
     },
     {
      "name": "Smallmouth Bass",
@@ -66,7 +66,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "also obtainable by diving"
+     "notes": "also obtainable by diving; rarity: Common"
     },
     {
      "name": "Trout",
@@ -82,7 +82,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "also obtainable by diving"
+     "notes": "also obtainable by diving; rarity: Common"
     }
    ]
   },
@@ -100,7 +100,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Carp",
@@ -113,7 +113,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Chub",
@@ -126,7 +126,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 90g"
+     "notes": "also sold at Tackle Shop for 90g; rarity: Common"
     },
     {
      "name": "Paddlefish",
@@ -139,7 +139,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Walleye",
@@ -153,7 +153,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rainy/Rain/Thunderstorm"
+     "notes": "wiki weather: Rainy/Rain/Thunderstorm; rarity: Common"
     }
    ]
   },
@@ -171,7 +171,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Barb",
@@ -184,7 +184,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Brown Trout",
@@ -197,7 +197,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Crucian Carp",
@@ -210,7 +210,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Goldfish",
@@ -223,7 +223,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     }
    ]
   },
@@ -241,7 +241,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "also obtainable by diving; also sold at Tackle Shop for 70g"
+     "notes": "also obtainable by diving; also sold at Tackle Shop for 70g; rarity: Common"
     },
     {
      "name": "Lobster",
@@ -254,7 +254,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Mackerel",
@@ -268,7 +268,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rainy/Rain/Thunderstorm"
+     "notes": "wiki weather: Rainy/Rain/Thunderstorm; rarity: Common"
     },
     {
      "name": "Ocean Sunfish",
@@ -281,7 +281,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Shrimp",
@@ -294,7 +294,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     }
    ]
   },
@@ -312,7 +312,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Loach",
@@ -325,7 +325,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 90g"
+     "notes": "also sold at Tackle Shop for 90g; rarity: Common"
     },
     {
      "name": "Minnow",
@@ -338,7 +338,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Sweetfish",
@@ -351,7 +351,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Tarpon",
@@ -364,7 +364,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     }
    ]
   },
@@ -382,7 +382,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Giant Koi",
@@ -395,7 +395,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Golden Shiner",
@@ -408,7 +408,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Lake Chub",
@@ -421,7 +421,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 70g"
+     "notes": "also sold at Tackle Shop for 70g; rarity: Common"
     },
     {
      "name": "Sauger",
@@ -434,7 +434,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     }
    ]
   },
@@ -452,7 +452,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Crab",
@@ -465,7 +465,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Dart",
@@ -478,7 +478,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 90g"
+     "notes": "also sold at Tackle Shop for 90g; rarity: Common"
     },
     {
      "name": "Grouper",
@@ -491,7 +491,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Stingray",
@@ -504,7 +504,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     }
    ]
   },
@@ -523,7 +523,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 80g; wiki weather: Rainy/Rain/Storm/Thunderstorm"
+     "notes": "also sold at Tackle Shop for 80g; wiki weather: Rainy/Rain/Storm/Thunderstorm; rarity: Common"
     },
     {
      "name": "Lamprey",
@@ -536,7 +536,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Perch",
@@ -550,7 +550,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rainy/Rain/Storm"
+     "notes": "wiki weather: Rainy/Rain/Storm; rarity: Common"
     },
     {
      "name": "Razorback",
@@ -563,7 +563,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Shad",
@@ -576,7 +576,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     }
    ]
   },
@@ -595,7 +595,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rainy/Rain/Storm/Thunderstorm"
+     "notes": "wiki weather: Rainy/Rain/Storm/Thunderstorm; rarity: Common"
     },
     {
      "name": "Killifish",
@@ -608,7 +608,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Rainbow Trout",
@@ -621,7 +621,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Striped Bass",
@@ -634,7 +634,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "White Perch",
@@ -647,7 +647,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     }
    ]
   },
@@ -665,7 +665,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 80g"
+     "notes": "also sold at Tackle Shop for 80g; rarity: Common"
     },
     {
      "name": "Halibut",
@@ -679,7 +679,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rainy/Rain/Storm/Thunderstorm"
+     "notes": "wiki weather: Rainy/Rain/Storm/Thunderstorm; rarity: Common"
     },
     {
      "name": "Mullet",
@@ -692,7 +692,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Saury",
@@ -705,7 +705,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Shark",
@@ -718,7 +718,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     }
    ]
   },
@@ -736,7 +736,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Dace",
@@ -749,7 +749,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "wiki weather: Snow/Blizzard"
+     "notes": "wiki weather: Snow/Blizzard; rarity: Common"
     },
     {
      "name": "Freshwater Eel",
@@ -762,7 +762,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Herring",
@@ -775,7 +775,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Shadow Bass",
@@ -788,7 +788,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     }
    ]
   },
@@ -806,7 +806,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Burbot",
@@ -819,7 +819,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "wiki weather: Snow/Blizzard"
+     "notes": "wiki weather: Snow/Blizzard; rarity: Common"
     },
     {
      "name": "Flathead Catfish",
@@ -832,7 +832,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Giant Tilapia",
@@ -845,7 +845,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Tilapia",
@@ -858,7 +858,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 90g"
+     "notes": "also sold at Tackle Shop for 90g; rarity: Common"
     }
    ]
   },
@@ -876,7 +876,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "King Crab",
@@ -889,7 +889,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "wiki weather: Snow/Blizzard"
+     "notes": "wiki weather: Snow/Blizzard; rarity: Common"
     },
     {
      "name": "Oarfish",
@@ -902,7 +902,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Sand Lance",
@@ -915,7 +915,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Sea Bass",
@@ -928,7 +928,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod",
-     "notes": "also sold at Tackle Shop for 80g"
+     "notes": "also sold at Tackle Shop for 80g; rarity: Common"
     }
    ]
   },
@@ -949,7 +949,7 @@
      "time": "Any",
      "location": "Any water (river, pond, or ocean)",
      "method": "Fishing rod with bait",
-     "notes": "requires fish bait (common bait fish)"
+     "notes": "requires fish bait (common bait fish); rarity: Common"
     },
     {
      "name": "Copper Rockfish",
@@ -965,7 +965,7 @@
      "time": "Any",
      "location": "Any water (river, pond, or ocean)",
      "method": "Fishing rod with bait",
-     "notes": "requires fish bait (common bait fish)"
+     "notes": "requires fish bait (common bait fish); rarity: Common"
     },
     {
      "name": "Iron Fish",
@@ -981,7 +981,7 @@
      "time": "Any",
      "location": "Any water (river, pond, or ocean)",
      "method": "Fishing rod with bait",
-     "notes": "Uncommon; requires fish bait (uncommon bait fish)"
+     "notes": "requires fish bait (uncommon bait fish); rarity: Uncommon"
     },
     {
      "name": "Silver Squid",
@@ -997,7 +997,7 @@
      "time": "Any",
      "location": "Any water (river, pond, or ocean)",
      "method": "Fishing rod with bait",
-     "notes": "Uncommon; requires fish bait (uncommon bait fish)"
+     "notes": "requires fish bait (uncommon bait fish); rarity: Uncommon"
     },
     {
      "name": "Golden Eel",
@@ -1013,7 +1013,7 @@
      "time": "Any",
      "location": "Any water (river, pond, or ocean)",
      "method": "Fishing rod with bait",
-     "notes": "Rare; requires fish bait (rare bait fish)"
+     "notes": "requires fish bait (rare bait fish); rarity: Rare"
     }
    ]
   },
@@ -1034,7 +1034,7 @@
      "time": "Any",
      "location": "Fish trap (any water)",
      "method": "Fish trap with bait",
-     "notes": "requires Fish Trap with bait"
+     "notes": "requires Fish Trap with bait; rarity: Common"
     },
     {
      "name": "Sea Urchin",
@@ -1050,7 +1050,7 @@
      "time": "Any",
      "location": "Fish trap (any water)",
      "method": "Fish trap with bait",
-     "notes": "Uncommon; requires Fish Trap with bait"
+     "notes": "requires Fish Trap with bait; rarity: Uncommon"
     },
     {
      "name": "Bait Thief",
@@ -1066,7 +1066,7 @@
      "time": "Any",
      "location": "Fish trap (any water)",
      "method": "Fish trap with bait",
-     "notes": "requires Fish Trap with bait"
+     "notes": "requires Fish Trap with bait; rarity: Common"
     },
     {
      "name": "Hake",
@@ -1082,7 +1082,7 @@
      "time": "Any",
      "location": "Fish trap (any water)",
      "method": "Fish trap with bait",
-     "notes": "Uncommon; requires Fish Trap with bait"
+     "notes": "requires Fish Trap with bait; rarity: Uncommon"
     },
     {
      "name": "Amberjack",
@@ -1098,7 +1098,7 @@
      "time": "Any",
      "location": "Fish trap (any water)",
      "method": "Fish trap with bait",
-     "notes": "Rare; requires Fish Trap with bait"
+     "notes": "requires Fish Trap with bait; rarity: Rare"
     }
    ]
   },
@@ -1121,7 +1121,7 @@
      "time": "Any",
      "location": "Deep Woods",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rain/Thunderstorm/Snow/Blizzard"
+     "notes": "wiki weather: Rain/Thunderstorm/Snow/Blizzard; rarity: Common"
     },
     {
      "name": "Forest Perch",
@@ -1139,7 +1139,7 @@
      "time": "Any",
      "location": "Deep Woods",
      "method": "Fishing rod",
-     "notes": "wiki weather: Rain/Thunderstorm/Snow/Blizzard"
+     "notes": "wiki weather: Rain/Thunderstorm/Snow/Blizzard; rarity: Common"
     },
     {
      "name": "Silver Redhorse",
@@ -1155,7 +1155,7 @@
      "time": "Any",
      "location": "Deep Woods",
      "method": "Fishing rod",
-     "notes": "Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Lake Trout",
@@ -1171,7 +1171,7 @@
      "time": "Any",
      "location": "Deep Woods",
      "method": "Fishing rod",
-     "notes": ""
+     "notes": "rarity: Common"
     },
     {
      "name": "Muskie",
@@ -1187,7 +1187,7 @@
      "time": "Any",
      "location": "Deep Woods",
      "method": "Fishing rod",
-     "notes": "Uncommon"
+     "notes": "rarity: Uncommon"
     }
    ]
   },
@@ -1206,9 +1206,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Upper Mines",
+     "location": "The Upper Mines (floors 1-19)",
      "method": "Fishing rod",
-     "notes": "Mines floors 2-19; Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Cave Shark",
@@ -1222,9 +1222,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Upper Mines",
+     "location": "The Upper Mines (floors 1-19)",
      "method": "Fishing rod",
-     "notes": "Mines floors 2-19; Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Cave Shrimp",
@@ -1238,9 +1238,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Upper Mines",
+     "location": "The Upper Mines (floors 1-19)",
      "method": "Fishing rod",
-     "notes": "Mines floors 2-19"
+     "notes": "rarity: Common"
     },
     {
      "name": "Rock Guppy",
@@ -1254,9 +1254,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Upper Mines",
+     "location": "The Upper Mines (floors 1-19)",
      "method": "Fishing rod",
-     "notes": "Mines floors 2-19; Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Stone Loach",
@@ -1270,9 +1270,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Upper Mines",
+     "location": "The Upper Mines (floors 1-19)",
      "method": "Fishing rod",
-     "notes": "Mines floors 2-19"
+     "notes": "rarity: Common"
     }
    ]
   },
@@ -1291,9 +1291,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Tide Caverns",
+     "location": "The Tide Caverns (floors 21-39)",
      "method": "Fishing rod",
-     "notes": "Mines floors 21-39; Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Mini-Whale Shark",
@@ -1307,9 +1307,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Tide Caverns",
+     "location": "The Tide Caverns (floors 21-39)",
      "method": "Fishing rod",
-     "notes": "Mines floors 21-39; Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Sapphire Betta",
@@ -1323,9 +1323,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Tide Caverns",
+     "location": "The Tide Caverns (floors 21-39)",
      "method": "Fishing rod",
-     "notes": "Mines floors 21-39"
+     "notes": "rarity: Common"
     },
     {
      "name": "Transparent Jellyfish",
@@ -1339,9 +1339,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Tide Caverns",
+     "location": "The Tide Caverns (floors 21-39)",
      "method": "Fishing rod",
-     "notes": "Mines floors 21-39"
+     "notes": "rarity: Common"
     },
     {
      "name": "Water Balloon Fish",
@@ -1355,9 +1355,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Tide Caverns",
+     "location": "The Tide Caverns (floors 21-39)",
      "method": "Fishing rod",
-     "notes": "Mines floors 21-39; Uncommon"
+     "notes": "rarity: Uncommon"
     }
    ]
   },
@@ -1376,9 +1376,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Deep Earth",
+     "location": "The Deep Earth (floors 41-59)",
      "method": "Fishing rod",
-     "notes": "Mines floors 41-59"
+     "notes": "rarity: Common"
     },
     {
      "name": "Emerald Horned Charger",
@@ -1392,9 +1392,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Deep Earth",
+     "location": "The Deep Earth (floors 41-59)",
      "method": "Fishing rod",
-     "notes": "Mines floors 41-59; Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Pebble Minnow",
@@ -1408,9 +1408,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Deep Earth",
+     "location": "The Deep Earth (floors 41-59)",
      "method": "Fishing rod",
-     "notes": "Mines floors 41-59"
+     "notes": "rarity: Common"
     },
     {
      "name": "Rockbiter",
@@ -1424,9 +1424,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Deep Earth",
+     "location": "The Deep Earth (floors 41-59)",
      "method": "Fishing rod",
-     "notes": "Mines floors 41-59; Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Shardfin",
@@ -1440,9 +1440,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "The Deep Earth",
+     "location": "The Deep Earth (floors 41-59)",
      "method": "Fishing rod",
-     "notes": "Mines floors 41-59; Uncommon"
+     "notes": "rarity: Uncommon"
     }
    ]
   },
@@ -1461,9 +1461,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Lava Caves",
+     "location": "The Lava Caves (floors 61-79)",
      "method": "Fishing rod",
-     "notes": "Mines floors 61-79"
+     "notes": "rarity: Common"
     },
     {
      "name": "Candelabra Seadragon",
@@ -1477,9 +1477,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Lava Caves",
+     "location": "The Lava Caves (floors 61-79)",
      "method": "Fishing rod",
-     "notes": "Mines floors 61-79; Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Firesail Fish",
@@ -1493,9 +1493,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Lava Caves",
+     "location": "The Lava Caves (floors 61-79)",
      "method": "Fishing rod",
-     "notes": "Mines floors 61-79; Rare"
+     "notes": "rarity: Rare"
     },
     {
      "name": "Lava Piranha",
@@ -1509,9 +1509,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Lava Caves",
+     "location": "The Lava Caves (floors 61-79)",
      "method": "Fishing rod",
-     "notes": "Mines floors 61-79"
+     "notes": "rarity: Common"
     },
     {
      "name": "Sulfur Crab",
@@ -1525,9 +1525,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Lava Caves",
+     "location": "The Lava Caves (floors 61-79)",
      "method": "Fishing rod",
-     "notes": "Mines floors 61-79; Uncommon"
+     "notes": "rarity: Uncommon"
     }
    ]
   },
@@ -1546,9 +1546,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Ancient Ruins",
+     "location": "The Ancient Ruins (floors 81-99)",
      "method": "Fishing rod",
-     "notes": "Mines floors 81-89, 91-99"
+     "notes": "rarity: Common"
     },
     {
      "name": "Gazer",
@@ -1562,9 +1562,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Ancient Ruins",
+     "location": "The Ancient Ruins (floors 81-99)",
      "method": "Fishing rod",
-     "notes": "Mines floors 81-89, 91-99; Uncommon"
+     "notes": "rarity: Uncommon"
     },
     {
      "name": "Luminescent Crab",
@@ -1578,9 +1578,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Ancient Ruins",
+     "location": "The Ancient Ruins (floors 81-99)",
      "method": "Fishing rod",
-     "notes": "Mines floors 81-89, 91-99"
+     "notes": "rarity: Common"
     },
     {
      "name": "Giant Jellyfish",
@@ -1594,9 +1594,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Ancient Ruins",
+     "location": "The Ancient Ruins (floors 81-99)",
      "method": "Fishing rod",
-     "notes": "Mines floors 81-89, 91-99"
+     "notes": "rarity: Common"
     },
     {
      "name": "Coelacanth",
@@ -1610,9 +1610,9 @@
       "Any"
      ],
      "time": "Any",
-     "location": "Ancient Ruins",
+     "location": "The Ancient Ruins (floors 81-99)",
      "method": "Fishing rod",
-     "notes": "Mines floors 81-89, 91-99; Rare"
+     "notes": "rarity: Rare"
     }
    ]
   },
@@ -1630,7 +1630,7 @@
      "time": "Any",
      "location": "Pond",
      "method": "Fishing rod (legendary)",
-     "notes": "Legendary; one per save; wiki weather: Springwind"
+     "notes": "one per save; wiki weather: Springwind; rarity: Legendary"
     },
     {
      "name": "Leaf Fish",
@@ -1643,7 +1643,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod (legendary)",
-     "notes": "Legendary; one per save; wiki weather: Fallwind"
+     "notes": "one per save; wiki weather: Fallwind; rarity: Legendary"
     },
     {
      "name": "Lightning Fish",
@@ -1656,7 +1656,7 @@
      "time": "Any",
      "location": "River",
      "method": "Fishing rod (legendary)",
-     "notes": "Legendary; one per save; wiki weather: Storm/Thunderstorm"
+     "notes": "one per save; wiki weather: Storm/Thunderstorm; rarity: Legendary"
     },
     {
      "name": "Snow Fish",
@@ -1669,7 +1669,7 @@
      "time": "Any",
      "location": "Ocean",
      "method": "Fishing rod (legendary)",
-     "notes": "Legendary; one per save; wiki weather: Blizzard"
+     "notes": "one per save; wiki weather: Blizzard; rarity: Legendary"
     }
    ]
   }

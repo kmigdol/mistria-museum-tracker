@@ -17,14 +17,12 @@ for w in data:
             it['tags']=tags(it['location'])
 
 # Mine floor ranges per biome, from the wiki's BiomesQuick template (the seals sit on floors
-# 20/40/60/80/100 and belong to no biome). Fish use the Fishing page's fishable floors instead:
-# floor 1 has no water and floor 90 is the Priestess' Chambers.
+# 20/40/60/80/100 and belong to no biome). Every wing uses the same ranges.
 MINE_FLOORS={"Upper Mines":"1-19","Tide Caverns":"21-39","Deep Earth":"41-59",
              "Lava Caves":"61-79","Ancient Ruins":"81-99"}
-FISH_FLOORS={**MINE_FLOORS,"Upper Mines":"2-19","Ancient Ruins":"81-89, 91-99"}
 bad=[]
 for w in data:
-    expect=FISH_FLOORS if w['wing']=='Fish' else MINE_FLOORS
+    expect=MINE_FLOORS
     for s in w['sets']:
         for it in s['items']:
             layers=[x for x in it['tags'] if x in MINE_FLOORS]
